@@ -34,7 +34,7 @@ const Header = ({ handleHidden }) => {
               <li className="pt-4 pb-4">
                 <Link href="/" legacyBehavior>
                   <a className="text-sm font-semibold text-slate-600 hover:text-slate-500">
-                    home
+                    Home
                   </a>
                 </Link>
               </li>
@@ -93,7 +93,7 @@ const Header = ({ handleHidden }) => {
             </ul>
             <div className="hidden lg:block">
               <Link href="/contact" legacyBehavior>
-                <a className="btn-primary hover-up-2">Request consultation</a>
+                <a className="btn-primary hover-up-2">Request Consultation</a>
               </Link>
             </div>
             <div className="lg:hidden">
