@@ -39,7 +39,7 @@ const Header = ({ handleHidden }) => {
                 </Link>
               </li>
               <li className="group relative pt-4 pb-4 has-child">
-                <Link href="/services/market-entry" legacyBehavior>
+                <Link href="/services" legacyBehavior>
                   <a className="text-sm font-semibold text-slate-600 hover:text-slate-500">
                     Services
                   </a>
@@ -70,6 +70,13 @@ const Header = ({ handleHidden }) => {
                     <Link href="/services/project-development" legacyBehavior>
                       <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
                         Project Development & Finance
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/ESG-impact-reporting" legacyBehavior>
+                      <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
+                        ESG& Impact Reporting
                       </a>
                     </Link>
                   </li>

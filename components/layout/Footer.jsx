@@ -23,8 +23,10 @@ const Footer = () => {
             </div>
             <div className="w-full lg:w-2/5 px-3 mb-8 lg:mb-0">
               <p className="max-w-md mx-auto lg:max-w-full lg:mx-0 lg:pr-32 lg:text-lg text-slate-400 leading-relaxed">
-                supporting clients with their{" "}
-                <strong>Net Zero Carbon journey</strong>
+                Sunergy is a leading consulting and advisory firm based in the
+                UAE that specializes in the clean energy and sustainability
+                sector in the
+                <strong> MENA region.</strong>
               </p>
             </div>
             <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">

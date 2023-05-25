@@ -51,6 +51,259 @@ const Services = () => {
             </ul>
           </div>
         </section>
+
+        <section className="pt-20 pb-16 xl:bg-contain bg-top bg-no-repeat">
+          <div className="container">
+            <div className="text-center mb-16">
+              <h2
+                className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn"
+                data-wow-delay=".2s"
+              >
+                <span>DIGITAL</span>
+                <span className="text-cyan-500"> MARKETING </span>
+              </h2>
+              <p
+                className="max-w-sm mx-auto text-lg text-slate-400 wow animate__animated animate__fadeInDown"
+                data-wow-delay=".5s"
+              ></p>
+            </div>
+            <div className="flex flex-wrap -mx-3">
+              <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+                <div
+                  className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn"
+                  data-wow-delay=".2s"
+                >
+                  <img
+                    className="h-32 mb-6 mx-auto"
+                    src="/assets/imgs/services/w4.png"
+                    alt="Monst"
+                  />
+                  <h3 className="mb-2 text-4xl font-bold font-heading">
+                    Range of Services
+                  </h3>
+
+                  <div className="flex flex-col items-center mb-8">
+                    <ul className="text-slate-400">
+                      <li className="flex mb-3">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>Search Engine Optimization (SEO)</span>
+                      </li>
+                      <li className="flex mb-3">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>Pay-per-Click (PPC) Ads </span>
+                      </li>
+                      <li className="flex mb-3">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>Social media marketing</span>
+                      </li>
+                      <li className="flex">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>Email marketing</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+                <div
+                  className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn"
+                  data-wow-delay=".2s"
+                >
+                  <img
+                    className="h-32 mb-6 mx-auto"
+                    src="/assets/imgs/services/w5.png"
+                    alt="Monst"
+                  />
+                  <h3 className="mb-2 text-4xl font-bold font-heading">
+                    Achieving Marketing Goals
+                  </h3>
+
+                  <div className="flex flex-col items-center mb-8">
+                    <ul className="text-slate-400">
+                      <li className="flex mb-3">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>Clean energy promotion</span>
+                      </li>
+                      <li className="flex mb-3">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>Client dedication</span>
+                      </li>
+                      <li className="flex mb-3">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>Effective promotion</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+                <div
+                  className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn"
+                  data-wow-delay=".2s"
+                >
+                  <img
+                    className="h-32 mb-6 mx-auto"
+                    src="/assets/imgs/services/w6.png"
+                    alt="Monst"
+                  />
+                  <h3 className="mb-2 text-4xl font-bold font-heading">
+                    Designed for Clean Energy
+                  </h3>
+
+                  <div className="flex flex-col items-center mb-8">
+                    <ul className="text-slate-400">
+                      <li className="flex mb-3">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>Deep sector knowhow</span>
+                      </li>
+                      <li className="flex mb-3">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>MENA Market knowledge</span>
+                      </li>
+                      <li className="flex mb-3">
+                        <svg
+                          className="w-6 h-6 mr-2 text-green-500"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          ></path>
+                        </svg>
+                        <span>Strong Network</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="pt-12">
           <div className="container py-12 mx-auto">
             <div className="flex flex-wrap">

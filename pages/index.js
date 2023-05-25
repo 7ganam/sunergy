@@ -89,6 +89,7 @@ const Index2 = () => {
             </div>
           </div>
         </section>
+
         <section className="pt-16 pb-20" id="key-features">
           <div className="container">
             <div className="flex flex-wrap items-center mb-12">
@@ -133,7 +134,190 @@ const Index2 = () => {
                 produce the best-possible outcome.
               </p>
             </div>
-            <div className="flex flex-wrap -mx-3 -mb-6 ">
+            <div className="w-full">
+              <div className="  -mb-6 text-center grid grid-cols-1 md:grid-cols-3 gap-5 ">
+                <div
+                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-12 bg-white shadow rounded h-full">
+                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                      1
+                    </div>
+                    <img
+                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/1.jpg"
+                      alt="Monst"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">
+                      Market Entry Strategy
+                    </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      PWe've established a strong track record of partnering
+                      with clients to successfully penetrate the MENA region,
+                      leveraging our expertise and experience
+                    </p>
+                    <Link
+                      href="/services/market-entry"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div
+                  className="hover-up-5 w-full  px-3 mb-6 wow animate__animated animate__fadeIn h-full"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-12 bg-white shadow rounded h-full">
+                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                      2
+                    </div>
+                    <img
+                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/2.jpg"
+                      alt="Monst"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">
+                      Digital Marketing
+                    </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      Unlock the potential of MENA through our digital marketing
+                      expertise. Let us help your business thrive in the digital
+                      realm.
+                    </p>
+                    <Link
+                      href="/services/digital-marketing"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div
+                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-12 bg-white shadow rounded h-full">
+                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                      3
+                    </div>
+                    <img
+                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/3.jpg"
+                      alt="Monst"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">
+                      Content Management
+                    </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      MENA business success starts with great content
+                      management. Let our experts help you to have the most
+                      suitable content and speakers.
+                    </p>
+                    <Link
+                      href="/services/content-management"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div
+                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-12 bg-white shadow rounded h-full">
+                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                      4
+                    </div>
+                    <img
+                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/4.jpg"
+                      alt="Monst"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">
+                      Project Development& Finance
+                    </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      Our team's wealth of experience in project development and
+                      finance enables successful solutions that drive business
+                      success…
+                    </p>
+                    <Link
+                      href="/services/project-development"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div
+                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-12 bg-white shadow rounded h-full">
+                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
+                      5
+                    </div>
+                    <img
+                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/5.jpg"
+                      alt="Monst"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">
+                      ESG& Impact Reporting
+                    </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      Helping our clients to communicate their sustainability
+                      strategies and performance in a clear and compelling way.
+                      …
+                    </p>
+                    <Link
+                      href="/services/ESG-impact-reporting"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className="flex flex-wrap -mx-3 -mb-6 ">
               <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
                 <div
                   className="h-full border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
@@ -164,6 +348,7 @@ const Index2 = () => {
                   </p>
                 </div>
               </div>
+
               <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
                 <div
                   className="h-full  border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
@@ -260,7 +445,7 @@ const Index2 = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -284,12 +469,12 @@ const Index2 = () => {
                     craft a team and strategy specific to your desired outcome.
                   </p>
                 </div>
-                <Link href="/services" legacyBehavior className="mt-4">
+                <Link href="/contact" legacyBehavior className="mt-4">
                   <a
                     className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
                     data-wow-delay=".5s"
                   >
-                    Learn More
+                    Request Consultation
                   </a>
                 </Link>
                 <div
@@ -315,6 +500,62 @@ const Index2 = () => {
             </div>
           </div>
         </section>
+
+        <section id={"partners"}>
+          <div className="text-center mb-8 mt-20">
+            <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn animated">
+              <span>Our </span>
+              <span className="text-cyan-400">Partners </span>
+            </h2>
+            <p
+              className="max-w-sm mx-auto text-lg text-slate-400 wow animate__animated animate__fadeIn animated"
+              data-wow-delay=".3s"
+            >
+              Sunergy is proud to have strong partnerships with leading
+              companies in the clean energy industry
+            </p>
+          </div>
+          <div className="w-full bg-cyan-400 p-10">
+            <div className="flex flex-wrap justify-center gap-4">
+              <div className="p-3 bg-white rounded-md ">
+                <img
+                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
+                  src="/assets/imgs/home/l1.png"
+                  alt="Monst"
+                />
+              </div>
+              <div className="p-3 bg-white rounded-md ">
+                <img
+                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
+                  src="/assets/imgs/home/l2.png"
+                  alt="Monst"
+                />
+              </div>
+              <div className="p-3 bg-white rounded-md ">
+                <img
+                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
+                  src="/assets/imgs/home/l3.png"
+                  alt="Monst"
+                />
+              </div>
+              <div className="p-3 bg-white rounded-md ">
+                <img
+                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
+                  src="/assets/imgs/home/l4.png"
+                  alt="Monst"
+                />
+              </div>
+              <div className="p-3 bg-white rounded-md ">
+                <img
+                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
+                  src="/assets/imgs/home/l5.png"
+                  alt="Monst"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section
           className="py-20 xl:bg-contain bg-top bg-no-repeat w-full"
           style={{
@@ -475,6 +716,7 @@ const Index2 = () => {
             </div>
           </div>
         </section>
+
         <section className="py-20"></section>
       </Layout>
     </>
