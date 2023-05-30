@@ -68,7 +68,7 @@ const Portfolio = () => {
                   <img
                     className="h-full object-cover rounded"
                     src="/assets/imgs/placeholders/img-10.jpg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
                 <div
@@ -78,7 +78,7 @@ const Portfolio = () => {
                   <img
                     className="h-full object-cover rounded"
                     src="/assets/imgs/placeholders/img-11.jpg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
                 <div
@@ -88,7 +88,7 @@ const Portfolio = () => {
                   <img
                     className="h-full object-cover rounded"
                     src="/assets/imgs/placeholders/img-12.jpg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
                 <div
@@ -98,7 +98,7 @@ const Portfolio = () => {
                   <img
                     className="h-full object-cover rounded"
                     src="/assets/imgs/placeholders/img-13.jpg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
               </div>
@@ -109,7 +109,7 @@ const Portfolio = () => {
                 <img
                   className="lg:h-128 w-full object-cover rounded"
                   src="/assets/imgs/placeholders/img-9.jpg"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <div className="absolute text-center bg-white rounded card-label-center px-4 py-12">
                   <div className="w-full flex place-content-center">
@@ -139,7 +139,7 @@ const Portfolio = () => {
                 <img
                   className="h-128 w-full object-cover rounded"
                   src="/assets/imgs/placeholders/img-9.jpg"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <div className="absolute text-center bg-white rounded card-label-center px-4 py-12">
                   <div className="w-full flex place-content-center">
@@ -169,7 +169,7 @@ const Portfolio = () => {
                   <img
                     className="h-full object-cover rounded"
                     src="/assets/imgs/placeholders/img-10.jpg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
                 <div
@@ -179,7 +179,7 @@ const Portfolio = () => {
                   <img
                     className="h-full object-cover rounded"
                     src="/assets/imgs/placeholders/img-11.jpg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
                 <div
@@ -189,7 +189,7 @@ const Portfolio = () => {
                   <img
                     className="h-full object-cover rounded"
                     src="/assets/imgs/placeholders/img-12.jpg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
                 <div
@@ -199,7 +199,7 @@ const Portfolio = () => {
                   <img
                     className="h-full object-cover rounded"
                     src="/assets/imgs/placeholders/img-13.jpg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
               </div>
@@ -332,7 +332,7 @@ const Portfolio = () => {
                     <img
                       className="h-80"
                       src="/assets/imgs/illustrations/online-shopping.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                   </div>
                 </div>
@@ -403,7 +403,7 @@ const Portfolio = () => {
                   </svg>
                   <div className="leading-relaxed">
                     <span className="text-sm text-slate-400">E-mail</span>
-                    <p>contact@monst.com</p>
+                    <p>contact@Sunergy.com</p>
                     <p>pat@example.com</p>
                   </div>
                 </div>

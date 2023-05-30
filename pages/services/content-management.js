@@ -76,7 +76,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/e1.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Expert Content Management{" "}
@@ -165,7 +165,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/e2.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     High-Quality Results{" "}
@@ -237,7 +237,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/e3.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Proven Track Record
@@ -334,7 +334,7 @@ const Services = () => {
                 <img
                   className="sm:max-w-sm lg:max-w-full mx-auto rounded-lg overflow-hidden shadow-2xl"
                   src="/assets/imgs/placeholders/contentManagement.jpg"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="w-full md:w-1/2 px-3 order-1 md:order-1">

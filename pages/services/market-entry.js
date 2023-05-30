@@ -76,7 +76,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/w1.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Designed for MENA Region
@@ -165,7 +165,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/w2.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Extensive Network{" "}
@@ -253,8 +253,8 @@ const Services = () => {
                 >
                   <img
                     className="h-32 mb-6 mx-auto"
-                    src="/assets/imgs/services/w1.png"
-                    alt="Monst"
+                    src="/assets/imgs/services/w3.png"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Start-Ups & SMEs
@@ -331,7 +331,7 @@ const Services = () => {
                 <img
                   className="sm:max-w-sm lg:max-w-full mx-auto rounded-lg overflow-hidden shadow-2xl"
                   src="/assets/imgs/placeholders/ME.jpg"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="w-full md:w-1/2 px-3 order-1 md:order-1">
@@ -364,88 +364,10 @@ Our team of experienced professionals has a deep understanding of the clean ener
 
 Whether you are a start-up looking to launch a new product, kick off a Pilot proejct or an established business looking to expand into the MENA region, Sunergy Advisory can help. Contact us today to learn more about our market entry advisory services for the MENA market.
 
-Areas of expertise include:
+
 
 `}
                   </p>
-
-                  <div className="flex flex-wrap">
-                    <div
-                      className="w-full md:w-1/2 items-start pt-4 pb-8 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".2s"
-                    >
-                      <div className="w-8 mb-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          1
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Energy Efficiency
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm">
-                          sunergy helps its customers achieve the highest
-                          possible energy Efficiency
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      className="w-full md:w-1/2 items-start py-4 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".3s"
-                    >
-                      <div className="w-8 mb-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          2
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Solar energy
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm">
-                          We have experts in both PV and CSP systems
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      className="w-full md:w-1/2 items-start py-4 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".4s"
-                    >
-                      <div className="w-8 mb-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          3
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Storage Solutions
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm">
-                          we help with energy storage solutions and
-                          implementations
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      className="w-full md:w-1/2 items-start py-4 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".5s"
-                    >
-                      <div className="w-8 mb-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          4
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Grid Management
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm">
-                          We help with designing analyzing and implementing
-                          grids{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

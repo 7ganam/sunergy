@@ -34,7 +34,7 @@ const BlogSingle = () => {
                   <img
                     className="w-12 h-12 object-cover rounded-full"
                     src="/assets/imgs/placeholders/avatar-8.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <div className="pl-4">
                     <p className="text-slate-100 mb-1">Alice Bradley</p>
@@ -137,7 +137,7 @@ const BlogSingle = () => {
                       <img
                         className="h-16 w-16 rounded-full object-cover"
                         src="/assets/imgs/placeholders/avatar-1.png"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                       <div className="pl-4">
                         <strong className="mt-6 mb-1 text-md">
@@ -165,7 +165,7 @@ const BlogSingle = () => {
                       <img
                         className="mt-2 rounded-full w-8 h-8 sm:w-10 sm:h-10"
                         src="/assets/imgs/placeholders/avatar-2.png"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </div>
                     <div className="flex-1 border border-gray-100 rounded-lg px-4 py-2 sm:px-6 sm:py-4 leading-relaxed">
@@ -181,12 +181,12 @@ const BlogSingle = () => {
                           <img
                             className="rounded-full w-6 h-6 border border-white"
                             src="/assets/imgs/placeholders/avatar-3.png"
-                            alt="Monst"
+                            alt="Sunergy"
                           />
                           <img
                             className="rounded-full w-6 h-6 border border-white"
                             src="/assets/imgs/placeholders/avatar-4.png"
-                            alt="Monst"
+                            alt="Sunergy"
                           />
                         </div>
                         <div className="text-sm text-gray-500 font-semibold">
@@ -200,7 +200,7 @@ const BlogSingle = () => {
                       <img
                         className="mt-2 rounded-full w-8 h-8 sm:w-10 sm:h-10"
                         src="/assets/imgs/placeholders/avatar-5.png"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </div>
                     <div className="flex-1 border border-gray-100 rounded-lg px-4 py-2 sm:px-6 sm:py-4 leading-relaxed">
@@ -220,7 +220,7 @@ const BlogSingle = () => {
                             <img
                               className="mt-3 rounded-full w-6 h-6 sm:w-8 sm:h-8"
                               src="/assets/imgs/placeholders/avatar-6.png"
-                              alt="Monst"
+                              alt="Sunergy"
                             />
                           </div>
                           <div className="flex-1 bg-gray-50 rounded-lg px-4 py-2 sm:px-6 sm:py-4 leading-relaxed">
@@ -241,7 +241,7 @@ const BlogSingle = () => {
                             <img
                               className="mt-3 rounded-full w-6 h-6 sm:w-8 sm:h-8"
                               src="/assets/imgs/placeholders/avatar-7.png"
-                              alt="Monst"
+                              alt="Sunergy"
                             />
                           </div>
                           <div className="flex-1 bg-gray-50 rounded-lg px-4 py-2 sm:px-6 sm:py-4 leading-relaxed">

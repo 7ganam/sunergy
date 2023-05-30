@@ -98,7 +98,7 @@ const Blog2 = () => {
                     <img
                       className="h-80 w-full object-cover rounded"
                       src="/assets/imgs/placeholders/img-6.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                   </a>
                 </Link>
@@ -154,7 +154,7 @@ const Blog2 = () => {
                     <img
                       className="h-80 w-full object-cover rounded"
                       src="/assets/imgs/placeholders/img-7.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                   </a>
                 </Link>
@@ -210,7 +210,7 @@ const Blog2 = () => {
                     <img
                       className="h-80 w-full object-cover rounded"
                       src="/assets/imgs/placeholders/img-8.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                   </a>
                 </Link>
@@ -266,7 +266,7 @@ const Blog2 = () => {
                     <img
                       className="h-80 w-full object-cover rounded"
                       src="/assets/imgs/placeholders/img-9.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                   </a>
                 </Link>

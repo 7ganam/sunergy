@@ -36,7 +36,7 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/1.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       Market Entry Strategy
@@ -72,7 +72,7 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/2.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       Digital Marketing
@@ -108,7 +108,7 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/3.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       Content Management
@@ -144,7 +144,7 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/4.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       Project Development& Finance
@@ -180,7 +180,7 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/5.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       ESG& Impact Reporting

@@ -32,7 +32,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                 <img
                   className="h-10"
                   src="/assets/imgs/logos/logo.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </a>
             </Link>
@@ -132,13 +132,13 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
           </div>
           <div className="mt-auto">
             <a className="inline-block px-1" href="https://facebook.com">
-              <img src="/assets/imgs/icons/facebook-blue.svg" alt="Monst" />
+              <img src="/assets/imgs/icons/facebook-blue.svg" alt="Sunergy" />
             </a>
             <a className="inline-block px-1" href="https://twitter.com">
-              <img src="/assets/imgs/icons/twitter-blue.svg" alt="Monst" />
+              <img src="/assets/imgs/icons/twitter-blue.svg" alt="Sunergy" />
             </a>
             <a className="inline-block px-1" href="https://www.instagram.com">
-              <img src="/assets/imgs/icons/instagram-blue.svg" alt="Monst" />
+              <img src="/assets/imgs/icons/instagram-blue.svg" alt="Sunergy" />
             </a>
           </div>
         </nav>

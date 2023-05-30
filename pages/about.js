@@ -31,9 +31,9 @@ const About = () => {
                         data-type='["Web Agency", "Social Marketing" ]'
                       ></span>
                     </p>
-                    <p className="text-slate-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">
+                    {/* <p className="text-slate-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">
                       Supporting you with your Net Zero Carbon journey
-                    </p>
+                    </p> */}
                   </div>
                   <div className="text-center lg:text-left">
                     <Link href="/services/market-entry" legacyBehavior>
@@ -270,11 +270,11 @@ const About = () => {
             </div>
           </div>
         </section>
-        <section className="py-20">
+        <section className="py-20" id="our-team">
           <div className="container text-center">
             <div className="max-w-lg mx-auto mb-16">
               <span className="inline-block py-1 px-3 text-xs font-semibold bg-cyan-100 text-cyan-600 rounded-xl">
-                About Our Expert
+                About Our Experts
               </span>
               <h2 className="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading">
                 Our
@@ -295,7 +295,7 @@ const About = () => {
                     <img
                       className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top"
                       src="/assets/imgs/placeholders/hazem.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <strong className="mt-6 mb-2 text-md">Hazem Hamada</strong>
                     <p className="text-gray-500 text-xs mt-3">
@@ -313,7 +313,7 @@ const About = () => {
                     <img
                       className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top"
                       src="/assets/imgs/placeholders/raed.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <strong className="mt-6 mb-2 text-md">Raed Bkayrat</strong>
                     <p className="text-gray-500 text-xs mt-3">
@@ -331,7 +331,7 @@ const About = () => {
                     <img
                       className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top"
                       src="/assets/imgs/placeholders/samir.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <strong className="mt-6 mb-2 text-md">
                       Ahmed Samir Elbermbali
@@ -364,35 +364,35 @@ const About = () => {
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l1.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l2.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l3.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l4.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l5.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
             </div>
@@ -418,49 +418,49 @@ const About = () => {
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/about/w1.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/about/w2.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/about/w3.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/about/w4.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-slate-400 rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/about/w5.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/about/w6.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/about/w7.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
             </div>

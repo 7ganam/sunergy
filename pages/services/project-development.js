@@ -76,7 +76,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/e4.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Full Cycle Project Development
@@ -201,7 +201,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/e5.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Asset Management Services{" "}
@@ -294,7 +294,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/e6.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     AREAS OF EXPERTISE{" "}
@@ -373,9 +373,7 @@ const Services = () => {
                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                           ></path>
                         </svg>
-                        <span className="text-start">
-                          Waste Management and Recycling
-                        </span>
+                        <span className="text-start">Climate Finance</span>
                       </li>
 
                       <li className="flex mb-3">
@@ -393,9 +391,7 @@ const Services = () => {
                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                           ></path>
                         </svg>
-                        <span className="text-start">
-                          Microgrids and Offgrid Power Systems
-                        </span>
+                        <span className="text-start">Storage Solutions</span>
                       </li>
                     </ul>
                   </div>
@@ -415,7 +411,7 @@ const Services = () => {
                 <img
                   className="sm:max-w-sm lg:max-w-full mx-auto"
                   src="/assets/imgs/placeholders/PM.webp"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="w-full md:w-1/2 px-3 order-1 md:order-1">
@@ -448,125 +444,8 @@ Sunergy Advisory provides asset management services post the Commercial Operatio
 
 At Sunergy Advisory, we are dedicated to helping our clients achieve their goals and succeed in the clean energy and sustainability market. Contact us today to learn more about our project development and finance services.
 
-Our MENA expert network provides project development expertise in the following areas:
 `}
                   </p>
-
-                  <div className="flex flex-wrap">
-                    <div
-                      className="w-full flex items-start pt-4 pb-8 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".2s"
-                    >
-                      <div className="w-8 mb-5 mr-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          1
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Solar PV Utility, Commercial and Industrial sectors
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm"></p>
-                      </div>
-                    </div>
-                    <div
-                      className="w-full flex items-start py-4 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".3s"
-                    >
-                      <div className="w-8 mb-5 mr-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          2
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          EV infrastructure development
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm"></p>
-                      </div>
-                    </div>
-                    <div
-                      className="w-full flex items-start py-4 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".4s"
-                    >
-                      <div className="w-8 mb-5 mr-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          3
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Green Hydrogen
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm"></p>
-                      </div>
-                    </div>
-                    <div
-                      className="w-full flex items-start py-4 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".5s"
-                    >
-                      <div className="w-8 mb-5 mr-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          4
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Energy Efficiency
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm"></p>
-                      </div>
-                    </div>
-                    <div
-                      className="w-full flex items-start py-4 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".5s"
-                    >
-                      <div className="w-8 mb-5 mr-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          5
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Waste Management and Recycling
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm"></p>
-                      </div>
-                    </div>
-                    <div
-                      className="w-full flex items-start py-4 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".5s"
-                    >
-                      <div className="w-8 mb-5 mr-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          6
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Microgrids and Offgrid Power Systems
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm"></p>
-                      </div>
-                    </div>
-                    <div
-                      className="w-full flex items-start py-4 wow animate__animated animate__fadeIn"
-                      data-wow-delay=".5s"
-                    >
-                      <div className="w-8 mb-5 mr-5 text-cyan-500">
-                        <span className="inline-block py-2 px-4 mr-4 text-xs font-semibold bg-cyan-500 text-white rounded">
-                          7
-                        </span>
-                      </div>
-                      <div>
-                        <h3 className="mb-2 text-xl font-semibold font-heading">
-                          Manufacturing Plants for Clean Tech Products and
-                          Systems
-                        </h3>
-                        <p className="text-slate-400 leading-loose text-sm"></p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

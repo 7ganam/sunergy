@@ -20,7 +20,7 @@ function Home() {
                   Committed <span className="text-blue-500">to the Future</span>
                 </h2>
                 <div className="text-slate-400 leading-relaxed wow animate__animated animate__fadeIn d-inline">
-                  We are <strong className="text-blue-500">Monst</strong>, a
+                  We are <strong className="text-blue-500">Sunergy</strong>, a
                   Creative Design{" "}
                   <div className="typewrite d-inline text-brand">
                     <TextEffect text1="Web Agency" text2="Social Marketing" />
@@ -45,7 +45,7 @@ function Home() {
             </div>
           </div>
           <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
-            <img src="/assets/imgs/elements/pattern.png" alt="Monst" />
+            <img src="/assets/imgs/elements/pattern.png" alt="Sunergy" />
             <div
               className="absolute"
               style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}
@@ -53,7 +53,7 @@ function Home() {
               <img
                 className="jump rounded wow animate__animated animate__fadeIn"
                 src="/assets/imgs/placeholders/dashboard.png"
-                alt="Monst"
+                alt="Sunergy"
               />
             </div>
           </div>
@@ -310,17 +310,17 @@ function Home() {
                   <img
                     className="jump relative mx-auto rounded-xl w-full z-10"
                     src="/assets/imgs/placeholders/img-1.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <img
                     className="absolute top-0 left-0 w-40 -ml-12 -mt-12"
                     src="/assets/imgs/elements/blob-tear.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <img
                     className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12"
                     src="/assets/imgs/elements/blob-tear.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
               </div>
@@ -360,7 +360,7 @@ function Home() {
                   <img
                     className="h-36 mx-auto my-4"
                     src="/assets/imgs/illustrations/eating.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
                     Project Initialization
@@ -382,7 +382,7 @@ function Home() {
                   <img
                     className="h-36 mx-auto my-4"
                     src="/assets/imgs/illustrations/space.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
                     Project planning
@@ -404,7 +404,7 @@ function Home() {
                   <img
                     className="h-36 mx-auto my-4"
                     src="/assets/imgs/illustrations/tasks.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
                     Project organization
@@ -484,7 +484,7 @@ function Home() {
                   <img
                     className="h-20 mb-6 mx-auto"
                     src="/assets/imgs/icons/startup.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Startup
@@ -589,7 +589,7 @@ function Home() {
                   <img
                     className="h-20 mb-6 mx-auto"
                     src="/assets/imgs/icons/agency.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Agency
@@ -694,7 +694,7 @@ function Home() {
                   <img
                     className="h-20 mb-6 mx-auto"
                     src="/assets/imgs/icons/enterprise.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Enterprise

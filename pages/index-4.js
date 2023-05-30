@@ -20,7 +20,7 @@ const Index4 = () => {
                   Committed <span className="text-blue-500">to the Future</span>
                 </h2>
                 <div className="text-slate-400 leading-relaxed wow animate__animated animate__fadeIn">
-                  We are <strong className="text-blue-500">Monst</strong>, a
+                  We are <strong className="text-blue-500">Sunergy</strong>, a
                   Creative Design{" "}
                   <div className="typewrite d-inline text-brand">
                     <TextEffect text1="Web Agency" text2="Social Marketing" />
@@ -51,7 +51,7 @@ const Index4 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-1.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -61,7 +61,7 @@ const Index4 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-2.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -71,7 +71,7 @@ const Index4 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-3.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -81,7 +81,7 @@ const Index4 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-4.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -91,7 +91,7 @@ const Index4 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-5.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
             </div>
@@ -310,7 +310,7 @@ const Index4 = () => {
                   <img
                     className="h-36 mx-auto my-4"
                     src="/assets/imgs/illustrations/eating.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
                     Project Initialization
@@ -332,7 +332,7 @@ const Index4 = () => {
                   <img
                     className="h-36 mx-auto my-4"
                     src="/assets/imgs/illustrations/space.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
                     Project planning
@@ -354,7 +354,7 @@ const Index4 = () => {
                   <img
                     className="h-36 mx-auto my-4"
                     src="/assets/imgs/illustrations/tasks.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 font-bold font-heading text-xl">
                     Project organization
@@ -767,7 +767,7 @@ const Index4 = () => {
                     <img
                       className="h-80"
                       src="/assets/imgs/illustrations/online-shopping.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                   </div>
                 </div>
@@ -837,7 +837,7 @@ const Index4 = () => {
                   </svg>
                   <div className="leading-relaxed">
                     <span className="text-sm text-slate-400">E-mail</span>
-                    <p>contact@monst.com</p>
+                    <p>contact@Sunergy.com</p>
                     <p>pat@example.com</p>
                   </div>
                 </div>

@@ -38,7 +38,7 @@ const Index2 = () => {
                         />
                       </div>
                     </div>
-                    <p className="text-slate-400 leading-relaxed wow animate__animated animate__fadeIn mt-3 text-sm">
+                    <p className="text-slate-400 leading-relaxed wow animate__animated animate__fadeIn mt-3 text-sm uppercase">
                       Helping you maximize operations management with
                       digitization
                     </p>
@@ -69,18 +69,19 @@ const Index2 = () => {
                     >
                       <img
                         className="jump relative mx-auto rounded-xl  z-10 lg:h-[350px]  object-cover shadow-xl "
-                        src="https://media.istockphoto.com/id/157735285/photo/solar-panel-with-clear-sky.jpg?s=170667a&w=0&k=20&c=LzZCR5EPxIMouqVmRKLPh-Rw-Qm-lRyjtBL_7YralX8="
-                        alt="Monst"
+                        // src="https://media.istockphoto.com/id/157735285/photo/solar-panel-with-clear-sky.jpg?s=170667a&w=0&k=20&c=LzZCR5EPxIMouqVmRKLPh-Rw-Qm-lRyjtBL_7YralX8="
+                        src="/assets/imgs/home/home.jpg"
+                        alt="Sunergy"
                       />
                       <img
                         className="absolute top-0 left-0 w-40 -ml-12 -mt-12"
                         src="/assets/imgs/elements/blob-tear.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                       <img
                         className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12"
                         src="/assets/imgs/elements/blob-tear.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </div>
                   </div>
@@ -130,8 +131,9 @@ const Index2 = () => {
                 className="max-w-sm mx-auto text-lg text-slate-400 wow animate__animated animate__fadeIn animated"
                 data-wow-delay=".3s"
               >
-                Our disciplined approach to resolving your legal issues will
-                produce the best-possible outcome.
+                We are committed to helping organizations in the MENA region
+                navigate the complexities of the clean energy and sustainability
+                sector through our specialized consulting and advisory services.
               </p>
             </div>
             <div className="w-full">
@@ -147,14 +149,14 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/1.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       Market Entry Strategy
                     </h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
-                      PWe've established a strong track record of partnering
-                      with clients to successfully penetrate the MENA region,
+                      We've established a strong track record of partnering with
+                      clients to successfully penetrate the MENA region,
                       leveraging our expertise and experience
                     </p>
                     <Link
@@ -183,7 +185,7 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/2.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       Digital Marketing
@@ -219,7 +221,7 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/3.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       Content Management
@@ -255,7 +257,7 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/4.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       Project Development& Finance
@@ -263,7 +265,7 @@ const Index2 = () => {
                     <p className="text-sm text-blueGray-400 leading-relaxed">
                       Our team's wealth of experience in project development and
                       finance enables successful solutions that drive business
-                      success…
+                      success.
                     </p>
                     <Link
                       href="/services/project-development"
@@ -291,7 +293,7 @@ const Index2 = () => {
                     <img
                       className="h-36 mx-auto my-4 w-full object-cover rounded"
                       src="/assets/imgs/home/5.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
                       ESG& Impact Reporting
@@ -299,7 +301,6 @@ const Index2 = () => {
                     <p className="text-sm text-blueGray-400 leading-relaxed">
                       Helping our clients to communicate their sustainability
                       strategies and performance in a clear and compelling way.
-                      …
                     </p>
                     <Link
                       href="/services/ESG-impact-reporting"
@@ -465,8 +466,8 @@ const Index2 = () => {
                     className="text-xs md:text-base text-slate-400 leading-loose wow animate__animated animate__fadeIn"
                     data-wow-delay=".9s"
                   >
-                    One size does not fit all when it comes to clean energy. We
-                    craft a team and strategy specific to your desired outcome.
+                    Achieve your clean energy objectives with Sunergy Advisory's
+                    customized solutions.
                   </p>
                 </div>
                 <Link href="/contact" legacyBehavior className="mt-4">
@@ -521,35 +522,35 @@ const Index2 = () => {
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l1.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l2.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l3.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l4.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="p-3 bg-white rounded-md ">
                 <img
                   className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
                   src="/assets/imgs/home/l5.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
             </div>
@@ -622,7 +623,7 @@ const Index2 = () => {
                   </svg>
                   <div className="leading-relaxed">
                     <span className="text-sm text-slate-400">E-mail</span>
-                    <p>Raed@sunergyadvisory.com</p>
+                    <p>info@sunergyadvisory.com</p>
                   </div>
                 </div>
                 <div

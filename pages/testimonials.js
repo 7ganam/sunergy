@@ -16,13 +16,13 @@ const Testimonials = () => {
                 <img
                   className="absolute top-0 right-0 h-full w-full rounded-xl object-cover object-top"
                   src="/assets/imgs/placeholders/img-1.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="w-full lg:w-1/2 lg:pl-24 my-auto">
                 <img
                   src="/assets/imgs/icons/quote.svg"
-                  alt="Monst"
+                  alt="Sunergy"
                   className="wow animate__animated animate__fadeIn"
                   data-wow-delay=".2s"
                 />
@@ -57,7 +57,7 @@ const Testimonials = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-1.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -67,7 +67,7 @@ const Testimonials = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-2.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -77,7 +77,7 @@ const Testimonials = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-3.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -87,7 +87,7 @@ const Testimonials = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-4.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -97,7 +97,7 @@ const Testimonials = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-5.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
             </div>
@@ -114,7 +114,7 @@ const Testimonials = () => {
               <img
                 className="mx-auto"
                 src="/assets/imgs/icons/quote.svg"
-                alt="Monst"
+                alt="Sunergy"
               />
               <h2 className="my-2 text-3xl md:text-4xl font-bold font-heading">
                 Our Customers Very Happy With Our Services
@@ -134,7 +134,7 @@ const Testimonials = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-1.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -154,13 +154,13 @@ const Testimonials = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -175,7 +175,7 @@ const Testimonials = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-2.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -193,13 +193,13 @@ const Testimonials = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -214,7 +214,7 @@ const Testimonials = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-3.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -234,13 +234,13 @@ const Testimonials = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/twitter-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -255,7 +255,7 @@ const Testimonials = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-4.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -275,19 +275,19 @@ const Testimonials = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/twitter-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -302,7 +302,7 @@ const Testimonials = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-5.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -322,19 +322,19 @@ const Testimonials = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/twitter-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -349,7 +349,7 @@ const Testimonials = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-6.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -369,19 +369,19 @@ const Testimonials = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/twitter-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -396,7 +396,7 @@ const Testimonials = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-2.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -414,13 +414,13 @@ const Testimonials = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -435,7 +435,7 @@ const Testimonials = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-3.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -455,13 +455,13 @@ const Testimonials = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/twitter-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -540,7 +540,7 @@ const Testimonials = () => {
                   </svg>
                   <div className="leading-relaxed">
                     <span className="text-sm text-slate-400">E-mail</span>
-                    <p>contact@monst.com</p>
+                    <p>contact@Sunergy.com</p>
                     <p>pat@example.com</p>
                   </div>
                 </div>

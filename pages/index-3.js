@@ -19,7 +19,7 @@ const Index3 = () => {
                     Solution
                   </h2>
                   <div className="text-slate-400 leading-relaxed wow animate__animated animate__fadeIn">
-                    We are <strong className="text-blue-500">Monst</strong>, a
+                    We are <strong className="text-blue-500">Sunergy</strong>, a
                     Creative Design{" "}
                     <div className="typewrite d-inline text-brand">
                       <TextEffect text1="Web Agency" text2="Social Marketing" />
@@ -50,7 +50,7 @@ const Index3 = () => {
                   <img
                     className="lg:max-w-lg"
                     src="/assets/imgs/illustrations/work-tv.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Index3 = () => {
               className="relative max-w-6xl mx-auto wow animate__animated animate__fadeIn"
               data-wow-delay=".3s"
             >
-              <img src="/assets/imgs/elements/macbook.png" alt="Monst" />
+              <img src="/assets/imgs/elements/macbook.png" alt="Sunergy" />
               <div
                 className="absolute"
                 style={{
@@ -428,7 +428,7 @@ const Index3 = () => {
                   <img
                     className="h-20 mb-6 mx-auto"
                     src="/assets/imgs/icons/startup.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Startup
@@ -533,7 +533,7 @@ const Index3 = () => {
                   <img
                     className="h-20 mb-6 mx-auto"
                     src="/assets/imgs/icons/agency.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Agency
@@ -638,7 +638,7 @@ const Index3 = () => {
                   <img
                     className="h-20 mb-6 mx-auto"
                     src="/assets/imgs/icons/enterprise.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Enterprise

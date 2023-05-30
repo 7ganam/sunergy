@@ -26,7 +26,7 @@ const Header = ({ handleHidden }) => {
                 <img
                   className="h-20"
                   src="/assets/imgs/logos/logo.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </a>
             </Link>
@@ -93,14 +93,19 @@ const Header = ({ handleHidden }) => {
               <li className="pt-4 pb-4">
                 <Link href="/contact" legacyBehavior>
                   <a className="text-sm font-semibold text-slate-600 hover:text-slate-500">
-                    Contact
+                    Contact Us
                   </a>
                 </Link>
               </li>
             </ul>
             <div className="hidden lg:block">
-              <Link href="/contact" legacyBehavior>
-                <a className="btn-primary hover-up-2">Request Consultation</a>
+              <Link href="/contact" legacyBehavior className="mt-4">
+                <a
+                  className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".5s"
+                >
+                  Request Consultation
+                </a>
               </Link>
             </div>
             <div className="lg:hidden">

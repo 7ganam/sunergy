@@ -16,14 +16,14 @@ const Index5 = () => {
             <img
               className="h-64 lg:h-80 jump"
               src="/assets/imgs/illustrations/at_the_park.svg"
-              alt="Monst"
+              alt="Sunergy"
             />
           </div>
           <div className="hidden md:block absolute top-0 right-0 mt-32">
             <img
               className="h-64 lg:h-80 jump"
               src="/assets/imgs/illustrations/delivered.svg"
-              alt="Monst"
+              alt="Sunergy"
             />
           </div>
           <div className="container">
@@ -38,7 +38,7 @@ const Index5 = () => {
                   <span>for technology solution.</span>
                 </h2>
                 <div className="text-slate-400 leading-relaxed wow animate__animated animate__fadeIn">
-                  We are <strong className="text-blue-500">Monst</strong>, a
+                  We are <strong className="text-blue-500">Sunergy</strong>, a
                   Creative Design{" "}
                   <span
                     className="typewrite d-inline text-brand"
@@ -105,7 +105,7 @@ const Index5 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-1.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -115,7 +115,7 @@ const Index5 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-2.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -125,7 +125,7 @@ const Index5 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-3.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -135,7 +135,7 @@ const Index5 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-4.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div
@@ -145,7 +145,7 @@ const Index5 = () => {
                 <img
                   className="mx-auto"
                   src="/assets/imgs/logos/brands/brand-5.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
             </div>
@@ -208,7 +208,7 @@ const Index5 = () => {
                 <img
                   className="sm:max-w-sm lg:max-w-full mx-auto"
                   src="/assets/imgs/illustrations/podcast.svg"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
             </div>
@@ -223,7 +223,7 @@ const Index5 = () => {
                   className="jump sm:max-w-sm lg:max-w-full mx-auto wow animate__animated animate__fadeIn"
                   data-wow-delay=".5s"
                   src="/assets/imgs/illustrations/tasks.svg"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
               </div>
               <div className="w-full lg:w-auto">
@@ -498,7 +498,7 @@ const Index5 = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="assets/imgs/placeholders/img-1.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <p className="text-lg font-bold">Michael Jackson</p>
@@ -514,13 +514,13 @@ const Index5 = () => {
                     <a href="#">
                       <img
                         src="assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -535,7 +535,7 @@ const Index5 = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="assets/imgs/placeholders/img-2.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <p className="text-lg font-bold">Oprah Winfrey</p>
@@ -553,13 +553,13 @@ const Index5 = () => {
                     <a href="#">
                       <img
                         src="assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -574,7 +574,7 @@ const Index5 = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="assets/imgs/placeholders/img-5.jpg"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <p className="text-lg font-bold">Leonardo</p>
@@ -592,13 +592,13 @@ const Index5 = () => {
                     <a href="#">
                       <img
                         src="assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="assets/imgs/icons/twitter-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -613,7 +613,7 @@ const Index5 = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="assets/imgs/placeholders/img-6.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <p className="text-lg font-bold">Jerry Seinfeld</p>
@@ -631,19 +631,19 @@ const Index5 = () => {
                     <a href="#">
                       <img
                         src="assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="assets/imgs/icons/twitter-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>

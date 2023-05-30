@@ -21,8 +21,8 @@ const Pricing = () => {
                       and the future
                     </h2>
                     <p className="text-slate-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                      We are <strong className="text-blue-500">Monst</strong>, a
-                      Creative Design{" "}
+                      We are <strong className="text-blue-500">Sunergy</strong>,
+                      a Creative Design{" "}
                       <span
                         className="typewrite d-inline text-brand"
                         data-period="3000"
@@ -56,7 +56,7 @@ const Pricing = () => {
                   <img
                     className="lg:max-w-lg"
                     src="/assets/imgs/illustrations/team.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                 </div>
               </div>
@@ -225,7 +225,7 @@ const Pricing = () => {
                   <img
                     className="h-20 mb-6 mx-auto"
                     src="/assets/imgs/icons/startup.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Startup
@@ -330,7 +330,7 @@ const Pricing = () => {
                   <img
                     className="h-20 mb-6 mx-auto"
                     src="/assets/imgs/icons/agency.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Agency
@@ -435,7 +435,7 @@ const Pricing = () => {
                   <img
                     className="h-20 mb-6 mx-auto"
                     src="/assets/imgs/icons/enterprise.svg"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Enterprise
@@ -1179,7 +1179,7 @@ const Pricing = () => {
                   </svg>
                   <div className="leading-relaxed">
                     <span className="text-sm text-slate-400">E-mail</span>
-                    <p>contact@monst.com</p>
+                    <p>contact@Sunergy.com</p>
                     <p>pat@example.com</p>
                   </div>
                 </div>

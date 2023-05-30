@@ -76,7 +76,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/a1.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Support ESG Initiatives{" "}
@@ -148,7 +148,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/a2.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Data Management& Systems Development{" "}
@@ -239,7 +239,7 @@ const Services = () => {
                   <img
                     className="h-32 mb-6 mx-auto"
                     src="/assets/imgs/services/a3.png"
-                    alt="Monst"
+                    alt="Sunergy"
                   />
                   <h3 className="mb-2 text-4xl font-bold font-heading">
                     Prioritize Sustainability Issues

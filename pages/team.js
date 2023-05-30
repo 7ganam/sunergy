@@ -67,7 +67,7 @@ const Team = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-1.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -87,13 +87,13 @@ const Team = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -108,7 +108,7 @@ const Team = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-2.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -126,13 +126,13 @@ const Team = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -147,7 +147,7 @@ const Team = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-3.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -167,13 +167,13 @@ const Team = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/twitter-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -188,7 +188,7 @@ const Team = () => {
                     <img
                       className="h-16 w-16 rounded-full object-cover"
                       src="/assets/imgs/placeholders/avatar-4.png"
-                      alt="Monst"
+                      alt="Sunergy"
                     />
                     <div className="pl-4">
                       <strong className="mt-6 mb-2 text-md">
@@ -208,19 +208,19 @@ const Team = () => {
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/facebook-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/instagram-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                     <a href="#">
                       <img
                         src="/assets/imgs/icons/twitter-blue.svg"
-                        alt="Monst"
+                        alt="Sunergy"
                       />
                     </a>
                   </div>
@@ -262,15 +262,15 @@ const Team = () => {
                 <img
                   className="h-64 w-64 mx-auto rounded object-cover object-top"
                   src="/assets/imgs/placeholders/avatar-1.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <p className="mt-6">
                   <strong className="text-md">Geraldine Tusoy</strong>
                 </p>
                 <p className="text-gray-500 text-xs mb-4">CEO, Co Founders</p>
                 <div className="flex py-1 justify-center space-x-2">
-                  <img src="/assets/imgs/icons/facebook.svg" alt="Monst" />
-                  <img src="/assets/imgs/icons/twitter.svg" alt="Monst" />
+                  <img src="/assets/imgs/icons/facebook.svg" alt="Sunergy" />
+                  <img src="/assets/imgs/icons/twitter.svg" alt="Sunergy" />
                 </div>
               </div>
 
@@ -281,15 +281,15 @@ const Team = () => {
                 <img
                   className="h-64 w-64 mx-auto rounded object-cover object-top"
                   src="/assets/imgs/placeholders/avatar-2.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <p className="mt-6">
                   <strong className="text-md">Clara Kolawole</strong>
                 </p>
                 <p className="text-gray-500 text-xs mb-4">CEO-Founder</p>
                 <div className="flex py-1 justify-center space-x-2">
-                  <img src="/assets/imgs/icons/facebook.svg" alt="Monst" />
-                  <img src="/assets/imgs/icons/twitter.svg" alt="Monst" />
+                  <img src="/assets/imgs/icons/facebook.svg" alt="Sunergy" />
+                  <img src="/assets/imgs/icons/twitter.svg" alt="Sunergy" />
                 </div>
               </div>
 
@@ -300,15 +300,15 @@ const Team = () => {
                 <img
                   className="h-64 w-64 mx-auto rounded object-cover object-top"
                   src="/assets/imgs/placeholders/avatar-3.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <p className="mt-6">
                   <strong className="text-md">Chris Fulton</strong>
                 </p>
                 <p className="text-gray-500 text-xs mb-4">Project-Manager</p>
                 <div className="flex py-1 justify-center space-x-2">
-                  <img src="/assets/imgs/icons/facebook.svg" alt="Monst" />
-                  <img src="/assets/imgs/icons/twitter.svg" alt="Monst" />
+                  <img src="/assets/imgs/icons/facebook.svg" alt="Sunergy" />
+                  <img src="/assets/imgs/icons/twitter.svg" alt="Sunergy" />
                 </div>
               </div>
 
@@ -319,15 +319,15 @@ const Team = () => {
                 <img
                   className="h-64 w-64 mx-auto rounded object-cover object-top"
                   src="/assets/imgs/placeholders/avatar-4.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <p className="mt-6">
                   <strong className="text-md">Dany Connolly</strong>
                 </p>
                 <p className="text-gray-500 text-xs mb-4">Direct-Founder</p>
                 <div className="flex py-1 justify-center space-x-2">
-                  <img src="/assets/imgs/icons/facebook.svg" alt="Monst" />
-                  <img src="/assets/imgs/icons/twitter.svg" alt="Monst" />
+                  <img src="/assets/imgs/icons/facebook.svg" alt="Sunergy" />
+                  <img src="/assets/imgs/icons/twitter.svg" alt="Sunergy" />
                 </div>
               </div>
 
@@ -338,15 +338,15 @@ const Team = () => {
                 <img
                   className="h-64 w-64 mx-auto rounded object-cover object-top"
                   src="/assets/imgs/placeholders/avatar-5.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <p className="mt-6">
                   <strong className="text-md">Al-amin Bishash</strong>
                 </p>
                 <p className="text-gray-500 text-xs mb-4">Director</p>
                 <div className="flex py-1 justify-center space-x-2">
-                  <img src="/assets/imgs/icons/facebook.svg" alt="Monst" />
-                  <img src="/assets/imgs/icons/twitter.svg" alt="Monst" />
+                  <img src="/assets/imgs/icons/facebook.svg" alt="Sunergy" />
+                  <img src="/assets/imgs/icons/twitter.svg" alt="Sunergy" />
                 </div>
               </div>
 
@@ -357,15 +357,15 @@ const Team = () => {
                 <img
                   className="h-64 w-64 mx-auto rounded object-cover object-top"
                   src="/assets/imgs/placeholders/avatar-6.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <p className="mt-6">
                   <strong className="text-md">Sanuya Santa</strong>
                 </p>
                 <p className="text-gray-500 text-xs mb-4">Marketing</p>
                 <div className="flex py-1 justify-center space-x-2">
-                  <img src="/assets/imgs/icons/facebook.svg" alt="Monst" />
-                  <img src="/assets/imgs/icons/twitter.svg" alt="Monst" />
+                  <img src="/assets/imgs/icons/facebook.svg" alt="Sunergy" />
+                  <img src="/assets/imgs/icons/twitter.svg" alt="Sunergy" />
                 </div>
               </div>
 
@@ -376,15 +376,15 @@ const Team = () => {
                 <img
                   className="h-64 w-64 mx-auto rounded object-cover object-top"
                   src="/assets/imgs/placeholders/avatar-7.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <p className="mt-6">
                   <strong className="text-md">Steven Job</strong>
                 </p>
                 <p className="text-gray-500 text-xs mb-4">Designer</p>
                 <div className="flex py-1 justify-center space-x-2">
-                  <img src="/assets/imgs/icons/facebook.svg" alt="Monst" />
-                  <img src="/assets/imgs/icons/twitter.svg" alt="Monst" />
+                  <img src="/assets/imgs/icons/facebook.svg" alt="Sunergy" />
+                  <img src="/assets/imgs/icons/twitter.svg" alt="Sunergy" />
                 </div>
               </div>
 
@@ -395,15 +395,15 @@ const Team = () => {
                 <img
                   className="h-64 w-64 mx-auto rounded object-cover object-top"
                   src="/assets/imgs/placeholders/avatar-8.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <p className="mt-6">
                   <strong className="text-md">Romario</strong>
                 </p>
                 <p className="text-gray-500 text-xs mb-4">Designer</p>
                 <div className="flex py-1 justify-center space-x-2">
-                  <img src="/assets/imgs/icons/facebook.svg" alt="Monst" />
-                  <img src="/assets/imgs/icons/twitter.svg" alt="Monst" />
+                  <img src="/assets/imgs/icons/facebook.svg" alt="Sunergy" />
+                  <img src="/assets/imgs/icons/twitter.svg" alt="Sunergy" />
                 </div>
               </div>
             </div>
@@ -472,7 +472,7 @@ const Team = () => {
                   </svg>
                   <div className="leading-relaxed">
                     <span className="text-sm text-slate-400">E-mail</span>
-                    <p>contact@monst.com</p>
+                    <p>contact@Sunergy.com</p>
                     <p>pat@example.com</p>
                   </div>
                 </div>

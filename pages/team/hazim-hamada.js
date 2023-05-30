@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -12,9 +13,10 @@ const Services = () => {
             </h1>
             <ul className="flex text-gray-500 text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
               <li className="inline-flex items-center">
-                <a href="#" className="hover:text-cyan-500 text-gray-800">
-                  Home
-                </a>
+                <Link href="/" legacyBehavior className="mt-4">
+                  <a className="hover:text-cyan-500 text-gray-800">Home</a>
+                </Link>
+
                 <svg
                   fill="currentColor"
                   viewBox="0 0 20 20"
@@ -28,9 +30,10 @@ const Services = () => {
                 </svg>
               </li>
               <li className="inline-flex items-center">
-                <a href="#" className="hover:text-cyan-500 text-gray-800">
-                  Our Team
-                </a>
+                <Link href="/about#our-team" legacyBehavior className="mt-4">
+                  <a className="hover:text-cyan-500 text-gray-800">Our Team</a>
+                </Link>
+
                 <svg
                   fill="currentColor"
                   viewBox="0 0 20 20"
@@ -61,7 +64,7 @@ const Services = () => {
                 <img
                   className="sm:max-w-sm lg:max-w-full mx-auto rounded-lg overflow-hidden shadow-2xl"
                   src="/assets/imgs/placeholders/hazem.png"
-                  alt="Monst"
+                  alt="Sunergy"
                 />
                 <h2
                   className="text-4xl mt-3 font-bold font-heading wow animate__animated animate__fadeIn"
