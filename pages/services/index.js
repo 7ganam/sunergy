@@ -25,6 +25,71 @@ const Index2 = () => {
                   <div className="p-6 bg-white shadow rounded h-full">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/4.jpg"
+                      alt="Sunergy"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">
+                      Project Development& Finance
+                    </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      Our team's wealth of experience in project development and
+                      finance enables successful solutions that drive business
+                      success.
+                    </p>
+                    <Link
+                      href="/services/project-development"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-6 bg-white shadow rounded h-full">
+                    <img
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/5.jpg"
+                      alt="Sunergy"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">
+                      ESG& Impact Reporting
+                    </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      Helping our clients to communicate their sustainability
+                      strategies and performance in a clear and compelling way.
+                    </p>
+                    <Link
+                      href="/services/ESG-impact-reporting"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-6 bg-white shadow rounded h-full">
+                    <img
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/1.jpg"
                       alt="Sunergy"
                     />
@@ -104,71 +169,6 @@ const Index2 = () => {
                     </p>
                     <Link
                       href="/services/content-management"
-                      legacyBehavior
-                      className="mt-4"
-                    >
-                      <a
-                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
-                        data-wow-delay=".5s"
-                      >
-                        Learn More
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-
-                <div
-                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
-                  data-wow-delay=".3s"
-                >
-                  <div className="p-6 bg-white shadow rounded h-full">
-                    <img
-                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
-                      src="/assets/imgs/home/4.jpg"
-                      alt="Sunergy"
-                    />
-                    <h3 className="mb-2 font-bold font-heading text-xl">
-                      Project Development& Finance
-                    </h3>
-                    <p className="text-sm text-blueGray-400 leading-relaxed">
-                      Our team's wealth of experience in project development and
-                      finance enables successful solutions that drive business
-                      success.
-                    </p>
-                    <Link
-                      href="/services/project-development"
-                      legacyBehavior
-                      className="mt-4"
-                    >
-                      <a
-                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
-                        data-wow-delay=".5s"
-                      >
-                        Learn More
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-
-                <div
-                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
-                  data-wow-delay=".3s"
-                >
-                  <div className="p-6 bg-white shadow rounded h-full">
-                    <img
-                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
-                      src="/assets/imgs/home/5.jpg"
-                      alt="Sunergy"
-                    />
-                    <h3 className="mb-2 font-bold font-heading text-xl">
-                      ESG& Impact Reporting
-                    </h3>
-                    <p className="text-sm text-blueGray-400 leading-relaxed">
-                      Helping our clients to communicate their sustainability
-                      strategies and performance in a clear and compelling way.
-                    </p>
-                    <Link
-                      href="/services/ESG-impact-reporting"
                       legacyBehavior
                       className="mt-4"
                     >

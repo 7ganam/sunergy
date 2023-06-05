@@ -2,85 +2,65 @@ import React from "react";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 
+const images = [
+  "/assets/imgs/home/l1.png",
+  "/assets/imgs/home/l2.png",
+  "/assets/imgs/home/l3.png",
+  "/assets/imgs/home/l4.png",
+  "/assets/imgs/home/l5.png",
+];
+
+const images2 = [
+  "/assets/imgs/about/w1.png",
+  "/assets/imgs/about/w2.png",
+  "/assets/imgs/about/w3.png",
+  "/assets/imgs/about/w4.png",
+  "/assets/imgs/about/w5.png",
+  "/assets/imgs/about/w6.png",
+  "/assets/imgs/about/w7.png",
+];
+
 const About = () => {
   return (
     <>
       <Layout>
         <section className="relative -mt-24 pt-24">
-          <div
-            className="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-slate-100 z-0"
-            style={{ zIndex: "-1" }}
-          ></div>
-          <div className="container">
-            <div className="flex flex-wrap items-center -mx-3">
-              <div className="w-full lg:w-1/2 px-3">
-                <div className="py-12">
-                  <div className="max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left">
-                    <h2 className="text-3xl lg:text-5xl mb-4 font-bold font-heading wow animate__animatedanimated animate__fadeIn">
-                      Inspiring
-                      <span className="text-cyan-500"> Sustainable</span> Change
-                    </h2>
-                    <p className="text-slate-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                      We are <strong className="text-cyan-500">Sunergy</strong>,
-                      a leading consulting and advisory firm based in the UAE
-                      that specializes in the clean energy and sustainability
-                      sector in the MENA region.
-                      <span
-                        className="typewrite d-inline text-brand"
-                        data-period="3000"
-                        data-type='["Web Agency", "Social Marketing" ]'
-                      ></span>
-                    </p>
-                    {/* <p className="text-slate-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">
-                      Supporting you with your Net Zero Carbon journey
-                    </p> */}
-                  </div>
-                  <div className="text-center lg:text-left">
-                    <Link href="/services/market-entry" legacyBehavior>
-                      <a className="tracking-wide hover-up-2 block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-cyan-400 hover:bg-cyan-500 rounded wow animate__animatedanimated animate__fadeIn">
-                        Our Services
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full lg:w-1/2 px-3 lg:bg-slate-100 mb-12 lg:mb-0 pb-10 lg:h-[400px]">
-                <div className="flex items-center justify-center ">
-                  <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
-                    <div
-                      className="wow animate__animated animate__fadeIn lg:w-[450px]"
-                      data-wow-delay=".5s"
-                    >
-                      <img
-                        className="jump relative mx-auto rounded-xl  z-10 lg:h-[350px]  object-cover shadow-xl "
-                        src="assets/imgs/team.jpg"
-                        alt="team"
-                      />
-                      <img
-                        className="absolute top-0 left-0 w-40 -ml-12 -mt-12"
-                        src="/assets/imgs/elements/blob-tear.svg"
-                        alt="team"
-                      />
-                      <img
-                        className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12"
-                        src="/assets/imgs/elements/blob-tear.svg"
-                        alt="team"
-                      />
-                    </div>
-                  </div>
-                </div>
+          <div className="relative isolate overflow-hidden pt-14">
+            <img
+              src="/assets/imgs/about/header.jpg"
+              alt=""
+              className="absolute inset-0 -z-10 h-full w-full object-cover"
+            />
+            {/* <div class="absolute inset-0 bg-gradient-to-b from-cyan-300 to-transparent"></div> */}
+            <div class="z-20 absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+
+            <div className="relative mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 z-30">
+              <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
+              <div className="text-center z-30">
+                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl -z-30">
+                  Inspiring Sustainable Change
+                </h1>
+                <p className="mt-6 text-xl leading-8 text-white z-30">
+                  Sunergy is a leading consulting and advisory firm based in the
+                  UAE that specializes in the clean energy and sustainability
+                  sector in the MENA region.
+                </p>
               </div>
             </div>
           </div>
+
+          <div className="bg-cyan-400 h-4"></div>
+          {/* <div class=" inset-0 bg-gradient-to-b from-cyan-300 to-slate-200 h-4"></div> */}
         </section>
-        <section className="pt-6 pb-2">
-          <div className="container">
-            <div className="grid grid-cols-2 gap-4 pt-8 pb-16">
+
+        <section className=" " id="key-features">
+          <div className="w-full min-h-[300px] bg-cyan-400 flex items-center  justify-center">
+            <div className="container grid-cols-2 justify-center flex-wrap  grid  md:grid-cols-3 ">
               <div
-                className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center"
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
                   <img
                     className="  w-16 "
                     src="/assets/imgs/about/q1.png"
@@ -88,17 +68,17 @@ const About = () => {
                   />
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                  <span className="sm:text-2xl font-bold font-heading count">
+                  <div className="sm:text-xl  count text-white font-bold ">
                     Founded 2017
-                  </span>
+                  </div>
                 </div>
               </div>
+
               <div
-                className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
                   <img
                     className="  w-16 "
                     src="/assets/imgs/about/q2.png"
@@ -106,17 +86,17 @@ const About = () => {
                   />
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                  <span className="sm:text-2xl font-bold font-heading count">
+                  <span className="sm:text-xl  count text-white font-bold">
                     Leading consulting and advisory firm
                   </span>
                 </div>
               </div>
+
               <div
-                className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
                   <img
                     className="  w-16 "
                     src="/assets/imgs/about/q3.png"
@@ -124,17 +104,17 @@ const About = () => {
                   />
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                  <span className="sm:text-2xl font-bold font-heading count">
+                  <span className="sm:text-xl  count text-white font-bold">
                     Specializes in clean energy and sustainability sector
                   </span>
                 </div>
               </div>
+
               <div
-                className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
                   <img
                     className="  w-16 "
                     src="/assets/imgs/about/q4.png"
@@ -142,17 +122,17 @@ const About = () => {
                   />
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                  <span className="sm:text-2xl font-bold font-heading count">
+                  <span className="sm:text-xl  count text-white font-bold">
                     Based in the United of Arab Emirates
                   </span>
                 </div>
               </div>
+
               <div
-                className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
                   <img
                     className="  w-16 "
                     src="/assets/imgs/about/q5.png"
@@ -160,192 +140,35 @@ const About = () => {
                   />
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                  <span className="sm:text-2xl font-bold font-heading count">
-                    Specialized in the MENA region{" "}
+                  <span className="sm:text-xl  count text-white font-bold">
+                    Specialized in the MENA region
                   </span>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-        <section className="py-20 bg-slate-50" id="how-we-work">
-          <div className="container">
-            <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
-              <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
-                <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown">
-                  <span>Our expert guidance and support </span>
-                  <span className="text-cyan-500">help clients to</span>
-                  <span> :</span>
-                  <br />
-                </h2>
-              </div>
-              <div className="w-full lg:w-1/2">
-                <div
-                  className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
-                    <img
-                      className="  w-16 "
-                      src="/assets/imgs/about/q6.png"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="sm:py-2 ml-2 sm:ml-6">
-                    <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                    <span className="sm:text-2xl font-bold font-heading count">
-                      Achieve their business objectives
-                    </span>
-                  </div>
-                </div>
-                <div
-                  className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
-                    <img
-                      className="  w-16 "
-                      src="/assets/imgs/about/q7.png"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="sm:py-2 ml-2 sm:ml-6">
-                    <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                    <span className="sm:text-2xl font-bold font-heading count">
-                      Succeed in the dynamic and rapidly growing market
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="container text-center mt-44">
-            <div className="max-w-lg mx-auto mb-16">
-              <h2 className="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading">
-                WHAT WE CAN DO
-                <span className="text-cyan-500"> FOR YOU? </span>
-              </h2>
-              <p className="text-slate-400 leading-loose">We can help you in</p>
-            </div>
-          </div>
-          <div className="container">
-            <div className="grid grid-cols-2 gap-4 pt-8 pb-16">
+
               <div
-                className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12  sm:h-24 sm:w-24 md:min-w-[96px]">
                   <img
                     className="  w-16 "
-                    src="/assets/imgs/about/q8.png"
+                    src="/assets/imgs/services/6.png"
                     alt="team"
                   />
                 </div>
                 <div className="sm:py-2 ml-2 sm:ml-6">
-                  <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                  <span className="sm:text-2xl font-bold font-heading count">
-                    Defining Your Net Zero Carbon journey
+                  <span className="sm:text-xl  count text-white font-bold">
+                    Provides professional services and support
                   </span>
                 </div>
               </div>
-              <div
-                className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
-                data-wow-delay=".2s"
-              >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
-                  <img
-                    className="  w-16 "
-                    src="/assets/imgs/about/q9.png"
-                    alt="team"
-                  />
-                </div>
-                <div className="sm:py-2 ml-2 sm:ml-6">
-                  <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                  <span className="sm:text-2xl font-bold font-heading count">
-                    Starting Your Decarbonization Process
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="py-20" id="our-team">
-          <div className="container text-center">
-            <div className="max-w-lg mx-auto mb-16">
-              <span className="inline-block py-1 px-3 text-xs font-semibold bg-cyan-100 text-cyan-600 rounded-xl">
-                About Our Experts
-              </span>
-              <h2 className="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading">
-                Our
-                <span className="text-cyan-500"> Team </span>
-              </h2>
-              <p className="text-slate-400 leading-loose">
-                Our services converge business and technology experts to help to
-                manage business categories
-              </p>
-            </div>
-            <div className="flex flex-wrap -mx-5 justify-center">
-              <Link href="/team/hazim-hamada" legacyBehavior>
-                <div className="w-1/2 lg:w-1/4 px-5 mb-12">
-                  <div
-                    className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200"
-                    data-wow-delay=".1s"
-                  >
-                    <img
-                      className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top"
-                      src="/assets/imgs/placeholders/hazem.png"
-                      alt="Sunergy"
-                    />
-                    <strong className="mt-6 mb-2 text-md">Hazem Hamada</strong>
-                    <p className="text-gray-500 text-xs mt-3">
-                      Project Manager
-                    </p>
-                  </div>
-                </div>
-              </Link>
-              <Link href="/team/raed-bkayrat" legacyBehavior>
-                <div className="w-1/2 lg:w-1/4 px-5 mb-12">
-                  <div
-                    className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200"
-                    data-wow-delay=".3s"
-                  >
-                    <img
-                      className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top"
-                      src="/assets/imgs/placeholders/raed.png"
-                      alt="Sunergy"
-                    />
-                    <strong className="mt-6 mb-2 text-md">Raed Bkayrat</strong>
-                    <p className="text-gray-500 text-xs mt-3">
-                      Founder and Senior Advisor
-                    </p>
-                  </div>
-                </div>
-              </Link>
-              <Link href="/team/ahmed-samir" legacyBehavior>
-                <div className="w-1/2 lg:w-1/4 px-5 mb-12">
-                  <div
-                    className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200"
-                    data-wow-delay=".3s"
-                  >
-                    <img
-                      className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top"
-                      src="/assets/imgs/placeholders/samir.png"
-                      alt="Sunergy"
-                    />
-                    <strong className="mt-6 mb-2 text-md">
-                      Ahmed Samir Elbermbali
-                    </strong>
-                    <p className="text-gray-500 text-xs mt-3">Partner</p>
-                  </div>
-                </div>
-              </Link>
             </div>
           </div>
         </section>
 
-        <section id={"partners"}>
-          <div className="text-center mb-8 mt-0">
+        <section id={"partners"} className="bg-slate-100">
+          <div className="text-center mb-8 mt-0 pt-16">
             <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn animated">
               <span>Our </span>
               <span className="text-cyan-400">Partners </span>
@@ -358,43 +181,30 @@ const About = () => {
               companies in the clean energy industry
             </p>
           </div>
-          <div className="w-full bg-cyan-400 p-10">
-            <div className="flex flex-wrap justify-center gap-4">
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l1.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l2.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l3.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l4.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l5.png"
-                  alt="Sunergy"
-                />
-              </div>
+
+          <div class="relative flex overflow-x-hidden bg-cyan-400">
+            <div class="py-12 animate-marquee whitespace-nowrap  flex items-center">
+              {images.map((image, index) => (
+                <div class="px-12" key={index}>
+                  <img
+                    src={image}
+                    alt=""
+                    className="bg-white h-[100px] p-4 rounded-lg shadow-lg"
+                  />
+                </div>
+              ))}
+            </div>
+
+            <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex items-center">
+              {images.map((image, index) => (
+                <div class=" px-12" key={index}>
+                  <img
+                    src={image}
+                    alt=""
+                    className="bg-white h-[100px] p-4 rounded-lg shadow-lg"
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </section>
@@ -412,57 +222,104 @@ const About = () => {
               Our clients are leaders in the clean energy industry
             </p>
           </div>
-          <div className="w-full bg-cyan-400 p-10">
-            <div className="flex flex-wrap justify-center gap-4">
-              <div className="p-3 bg-slate-400 rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/about/w1.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/about/w2.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/about/w3.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/about/w4.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-slate-400 rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/about/w5.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/about/w6.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/about/w7.png"
-                  alt="Sunergy"
-                />
-              </div>
+
+          <div class="relative flex overflow-x-hidden bg-cyan-400">
+            <div class="py-12 animate-marquee whitespace-nowrap  flex items-center">
+              {images2.map((image, index) => (
+                <div class="px-12" key={index}>
+                  <img
+                    src={image}
+                    alt=""
+                    className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
+                  />
+                </div>
+              ))}
+            </div>
+
+            <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex items-center">
+              {images2.map((image, index) => (
+                <div class=" px-12" key={index}>
+                  <img
+                    src={image}
+                    alt=""
+                    className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="py-20" id="our-team">
+          <div className="container text-center">
+            <div className="max-w-lg mx-auto mb-16">
+              <span className="inline-block py-1 px-3 text-xs font-semibold bg-cyan-100 text-cyan-600 rounded-xl">
+                About Our Experts
+              </span>
+              <h2 className="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading">
+                Our
+                <span className="text-cyan-500"> Team </span>
+              </h2>
+              <p className="text-slate-400 leading-loose">
+                Our services converge business and technology experts to help to
+                manage business categories
+              </p>
+            </div>
+            <div className="flex flex-wrap -mx-5 justify-center">
+              <Link href="/team/hazim-hamada" legacyBehavior>
+                <div className="w-1/2 lg:w-1/3 px-5 mb-12">
+                  <div
+                    className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200"
+                    data-wow-delay=".1s"
+                  >
+                    <img
+                      className="mb-6 h-32 w-32 mx-auto rounded-full object-cover object-top"
+                      src="/assets/imgs/placeholders/hazem.png"
+                      alt="Sunergy"
+                    />
+                    <strong className="mt-6 mb-2 text-md">Hazem Hamada</strong>
+                    <p className="text-gray-500 text-xs mt-3">
+                      Project Manager
+                    </p>
+                  </div>
+                </div>
+              </Link>
+              <Link href="/team/raed-bkayrat" legacyBehavior>
+                <div className="w-1/2 lg:w-1/3 px-5 mb-12">
+                  <div
+                    className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200"
+                    data-wow-delay=".3s"
+                  >
+                    <img
+                      className="mb-6 h-32 w-32 mx-auto rounded-full object-cover object-top"
+                      src="/assets/imgs/placeholders/raed.png"
+                      alt="Sunergy"
+                    />
+                    <strong className="mt-6 mb-2 text-md">Raed Bkayrat</strong>
+                    <p className="text-gray-500 text-xs mt-3">
+                      Founder and Senior Advisor
+                    </p>
+                  </div>
+                </div>
+              </Link>
+              <Link href="/team/ahmed-samir" legacyBehavior>
+                <div className="w-1/2 lg:w-1/3 px-5 mb-12">
+                  <div
+                    className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200"
+                    data-wow-delay=".3s"
+                  >
+                    <img
+                      className="mb-6 h-32 w-32 mx-auto rounded-full object-cover object-top"
+                      src="/assets/imgs/placeholders/samir.png"
+                      alt="Sunergy"
+                    />
+                    <strong className="mt-6 mb-2 text-md">
+                      Ahmed Samir Elbermbali
+                    </strong>
+                    <p className="text-gray-500 text-xs mt-3">Partner</p>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
         </section>
@@ -471,18 +328,11 @@ const About = () => {
           <div className="container">
             <div className="max-w-2xl mx-auto text-center">
               <div className="max-w-md mb-8 mx-auto">
-                <span
-                  className="inline-block py-1 px-3 text-xs font-semibold bg-cyan-100 text-cyan-600 rounded-xl wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".1s"
-                >
-                  Contact Us
-                </span>
                 <h2
                   className="mt-2 text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeIn"
                   data-wow-delay=".s"
                 >
-                  We will <span className="text-cyan-500">be glad</span> to hear
-                  from you!
+                  Contact <span className="text-cyan-500">Us</span>
                 </h2>
               </div>
               <div>
