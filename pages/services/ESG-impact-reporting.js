@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <>
       <Layout>
-        <section className="-mt-24 pt-40 pb-12 bg-slate-100">
+        <section className="-mt-24 pt-32 pb-0 bg-slate-100">
           <div className="container">
             <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">
               Our Services

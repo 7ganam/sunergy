@@ -4,150 +4,80 @@ import Slider2 from "../components/slider/Slider2";
 import TextEffect from "../components/elements/TextEffect";
 import Link from "next/link";
 
+const images = [
+  "/assets/imgs/home/l1.png",
+  "/assets/imgs/home/l2.png",
+  "/assets/imgs/home/l3.png",
+  "/assets/imgs/home/l4.png",
+  "/assets/imgs/home/l5.png",
+];
+
 const Index2 = () => {
   return (
     <>
       <Layout>
         <section className="relative -mt-24 pt-24">
-          <div
-            className="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-slate-100 z-0"
-            style={{ zIndex: "-1" }}
-          ></div>
-          <div className="container">
-            <div className="flex flex-wrap items-center -mx-3">
-              <div className="w-full lg:w-1/2 px-3">
-                <div className="py-12">
-                  <div className="max-w-lg lg:max-w-lg mx-auto lg:mx-0 mb-8 text-center lg:text-left">
-                    <h2 className="text-3xl lg:text-5xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn">
-                      Sunergy <span className="text-cyan-400">Advisory</span>{" "}
-                    </h2>
-                    <div className="text-slate-400 leading-relaxed wow animate__animated animate__fadeIn">
-                      We are <strong className="text-cyan-400">Sunergy</strong>,
-                      A leading consulting and advisory firm based in the UAE
-                      that specializes in the clean energy and sustainability
-                      sector in the MENA region. We provide expert guidance and
-                      support to help our clients achieve their business
-                      objectives and succeed in the dynamic and rapidly growing
-                      market for clean energy and sustainability solutions.
-                      <div className="typewrite d-inline text-brand">
-                        <TextEffect
-                          text1="Market Entry Strategy"
-                          text2="Digital Marketing"
-                          text3="Content Management"
-                          text4="Project Development & Finance"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-slate-400 leading-relaxed wow animate__animated animate__fadeIn mt-3 text-sm uppercase">
-                      Helping you maximize operations management with
-                      digitization
-                    </p>
-                  </div>
+          <div className="relative isolate overflow-hidden pt-14">
+            <img
+              src="/assets/imgs/home/header.jpg"
+              alt=""
+              className="absolute inset-0 -z-10 h-full w-full object-cover"
+            />
+            {/* <div class="absolute inset-0 bg-gradient-to-b from-cyan-300 to-transparent"></div> */}
+
+            <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 -z-30">
+              <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
+              <div className="text-center">
+                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl -z-30">
+                  A Leading Consulting and Advisory Firm Based in the UAE
+                </h1>
+                <p className="mt-6 text-xl leading-8 text-white">
+                  We are committed to helping organizations in the MENA region
+                  navigate the complexities of the clean energy and
+                  sustainability sector through our specialized consulting and
+                  advisory services.
+                </p>
+                <div className="mt-10 flex items-center justify-center gap-x-6">
                   <div className="text-center lg:text-left">
                     <a
                       className="tracking-wide hover-up-2 block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded wow animate__animated animate__fadeIn"
                       href="/contact"
                     >
-                      request consultation
+                      Request Consultation
                     </a>
                     <a
                       className="block hover-up-2 sm:inline-block py-4 px-8 text-xs text-slate-500 hover:text-slate-600 text-center font-semibold leading-none bg-white border border-slate-200 hover:border-slate-300 rounded wow animate__animated animate__fadeIn"
                       data-wow-delay=".3s"
                       href="/about"
                     >
-                      about us
+                      About Us
                     </a>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full lg:w-1/2 px-3 lg:bg-slate-100 mb-12 lg:mb-0 pb-10 lg:h-[400px]">
-                <div className="flex items-center justify-center ">
-                  <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
-                    <div
-                      className="wow animate__animated animate__fadeIn lg:w-[450px]"
-                      data-wow-delay=".5s"
-                    >
-                      <img
-                        className="jump relative mx-auto rounded-xl  z-10 lg:h-[350px]  object-cover shadow-xl "
-                        // src="https://media.istockphoto.com/id/157735285/photo/solar-panel-with-clear-sky.jpg?s=170667a&w=0&k=20&c=LzZCR5EPxIMouqVmRKLPh-Rw-Qm-lRyjtBL_7YralX8="
-                        src="/assets/imgs/home/home.jpg"
-                        alt="Sunergy"
-                      />
-                      <img
-                        className="absolute top-0 left-0 w-40 -ml-12 -mt-12"
-                        src="/assets/imgs/elements/blob-tear.svg"
-                        alt="Sunergy"
-                      />
-                      <img
-                        className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12"
-                        src="/assets/imgs/elements/blob-tear.svg"
-                        alt="Sunergy"
-                      />
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div className="bg-cyan-400 h-4"></div>
+          {/* <div class=" inset-0 bg-gradient-to-b from-cyan-300 to-slate-200 h-4"></div> */}
         </section>
 
-        <section className="pt-16 pb-20" id="key-features">
+        <section className="pt-1 pb-20 bg-slate-100" id="key-features">
           <div className="container">
-            <div className="flex flex-wrap items-center mb-12">
-              <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
-                <h2
-                  className="text-4xl font-bold font-heading wow animate__animated animate__fadeIn"
-                  data-wow-delay=".1s"
-                >
-                  <span>
-                    Sunergy Advisory aims at supporting its clients in defining
-                    their{" "}
-                  </span>
-                  <br />
-                  <span className="text-cyan-400">Net Zero Carbon journey</span>
-                </h2>
-              </div>
-              <div className="w-full lg:w-1/2">
-                <p
-                  className="lg:pl-16 text-slate-400 leading-loose wow animate__animated animate__fadeIn"
-                  data-wow-delay=".4s"
-                >
-                  outlining the steps needed to start the decarbonization
-                  process, all with a positive impact on the corporate bottom
-                  line and building on the ESG mandates for the client. Sunergy
-                  Advisory taps into a wide set of leading experts in the MENA
-                  region to cover different aspects of project development,
-                  technology assessment, market strategy, product development,
-                  and stakeholder engagement.
-                </p>
-              </div>
-            </div>
-            <div className="text-center mb-8 mt-20">
+            <div className="text-center mb-8 mt-16">
               <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn animated">
                 <span>Our </span>
                 <span className="text-cyan-400">Services </span>
               </h2>
-              <p
-                className="max-w-sm mx-auto text-lg text-slate-400 wow animate__animated animate__fadeIn animated"
-                data-wow-delay=".3s"
-              >
-                We are committed to helping organizations in the MENA region
-                navigate the complexities of the clean energy and sustainability
-                sector through our specialized consulting and advisory services.
-              </p>
             </div>
             <div className="w-full">
-              <div className="  -mb-6 text-center grid grid-cols-1 md:grid-cols-3 gap-5 ">
+              <div className="  -mb-6 text-center flex flex-wrap gap-5 justify-center">
                 <div
-                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      1
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/1.jpg"
                       alt="Sunergy"
                     />
@@ -175,15 +105,12 @@ const Index2 = () => {
                 </div>
 
                 <div
-                  className="hover-up-5 w-full  px-3 mb-6 wow animate__animated animate__fadeIn h-full"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px]  px-3 mb-6 wow animate__animated animate__fadeIn "
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      2
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/2.jpg"
                       alt="Sunergy"
                     />
@@ -211,15 +138,12 @@ const Index2 = () => {
                 </div>
 
                 <div
-                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      3
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/3.jpg"
                       alt="Sunergy"
                     />
@@ -247,15 +171,12 @@ const Index2 = () => {
                 </div>
 
                 <div
-                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      4
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/4.jpg"
                       alt="Sunergy"
                     />
@@ -283,15 +204,12 @@ const Index2 = () => {
                 </div>
 
                 <div
-                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      5
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/5.jpg"
                       alt="Sunergy"
                     />
@@ -452,9 +370,9 @@ const Index2 = () => {
 
         <section className="py-12 md:py-20">
           <div className="container">
-            <div className="flex flex-wrap -mx-3">
-              <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left">
-                <div className="max-w-md lg:max-w-xs mx-auto lg:ml-0 mb-6 lg:mb-0">
+            <div className="flex flex-wrap -mx-3 justify-center">
+              <div className="relative  mb-8 lg:mb-0 text-center ">
+                <div className="max-w-md lg:max-w-lg mx-auto lg:ml-0 mb-6 lg:mb-0">
                   <h2
                     className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn animated"
                     data-wow-delay=".3s"
@@ -485,25 +403,12 @@ const Index2 = () => {
                   <div id="carausel-fade-1-arrows" className="flex"></div>
                 </div>
               </div>
-              <div
-                className="w-full lg:w-2/3 flex flex-wrap px-3 wow animate__animated animate__fadeIn"
-                data-wow-delay=".5s"
-              >
-                <div className="relative w-full rounded">
-                  <div
-                    className="carausel-fade slick-carausel rounded"
-                    id="carausel-fade-1"
-                  >
-                    <Slider2 />
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
 
-        <section id={"partners"}>
-          <div className="text-center mb-8 mt-20">
+        <section id={"partners"} className="bg-slate-100">
+          <div className="text-center mb-8 mt-0 pt-16">
             <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn animated">
               <span>Our </span>
               <span className="text-cyan-400">Partners </span>
@@ -516,43 +421,30 @@ const Index2 = () => {
               companies in the clean energy industry
             </p>
           </div>
-          <div className="w-full bg-cyan-400 p-10">
-            <div className="flex flex-wrap justify-center gap-4">
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l1.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l2.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l3.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l4.png"
-                  alt="Sunergy"
-                />
-              </div>
-              <div className="p-3 bg-white rounded-md ">
-                <img
-                  className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw] "
-                  src="/assets/imgs/home/l5.png"
-                  alt="Sunergy"
-                />
-              </div>
+
+          <div class="relative flex overflow-x-hidden bg-cyan-400">
+            <div class="py-12 animate-marquee whitespace-nowrap  flex items-center">
+              {images.map((image, index) => (
+                <div class="px-12" key={index}>
+                  <img
+                    src={image}
+                    alt=""
+                    className="bg-white h-[100px] p-4 rounded-lg shadow-lg"
+                  />
+                </div>
+              ))}
+            </div>
+
+            <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex items-center">
+              {images.map((image, index) => (
+                <div class=" px-12" key={index}>
+                  <img
+                    src={image}
+                    alt=""
+                    className="bg-white h-[100px] p-4 rounded-lg shadow-lg"
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </section>
@@ -572,12 +464,6 @@ const Index2 = () => {
                 >
                   Get in touch!
                 </h2>
-                <p
-                  className="text-slate-400 wow animate__animated animate__fadeIn animated"
-                  data-wow-delay=".5s"
-                >
-                  We will be glad to hear from you
-                </p>
               </div>
               <div className="flex flex-wrap -mx-3 text-center">
                 <div

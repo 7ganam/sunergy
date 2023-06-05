@@ -8,33 +8,23 @@ const Index2 = () => {
   return (
     <>
       <Layout>
-        <section className="pt-16 pb-20" id="key-features">
+        <section className="pt-1 pb-20 " id="key-features">
           <div className="container">
-            <div className="text-center mb-8 mt-20">
+            <div className="text-center mb-20 mt-16">
               <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn animated">
                 <span>Our </span>
                 <span className="text-cyan-400">Services </span>
               </h2>
-              <p
-                className="max-w-sm mx-auto text-lg text-slate-400 wow animate__animated animate__fadeIn animated"
-                data-wow-delay=".3s"
-              >
-                Our disciplined approach to resolving your legal issues will
-                produce the best-possible outcome.
-              </p>
             </div>
             <div className="w-full">
-              <div className="  -mb-6 text-center grid grid-cols-1 md:grid-cols-3 gap-5 ">
+              <div className="  -mb-6 text-center flex flex-wrap gap-5 justify-center">
                 <div
-                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      1
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/1.jpg"
                       alt="Sunergy"
                     />
@@ -42,8 +32,8 @@ const Index2 = () => {
                       Market Entry Strategy
                     </h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
-                      PWe've established a strong track record of partnering
-                      with clients to successfully penetrate the MENA region,
+                      We've established a strong track record of partnering with
+                      clients to successfully penetrate the MENA region,
                       leveraging our expertise and experience
                     </p>
                     <Link
@@ -62,15 +52,12 @@ const Index2 = () => {
                 </div>
 
                 <div
-                  className="hover-up-5 w-full  px-3 mb-6 wow animate__animated animate__fadeIn h-full"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px]  px-3 mb-6 wow animate__animated animate__fadeIn "
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      2
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/2.jpg"
                       alt="Sunergy"
                     />
@@ -98,15 +85,12 @@ const Index2 = () => {
                 </div>
 
                 <div
-                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      3
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/3.jpg"
                       alt="Sunergy"
                     />
@@ -134,15 +118,12 @@ const Index2 = () => {
                 </div>
 
                 <div
-                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      4
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/4.jpg"
                       alt="Sunergy"
                     />
@@ -152,7 +133,7 @@ const Index2 = () => {
                     <p className="text-sm text-blueGray-400 leading-relaxed">
                       Our team's wealth of experience in project development and
                       finance enables successful solutions that drive business
-                      success…
+                      success.
                     </p>
                     <Link
                       href="/services/project-development"
@@ -170,15 +151,12 @@ const Index2 = () => {
                 </div>
 
                 <div
-                  className="hover-up-5 w-full h-full px-3 mb-6 wow animate__animated animate__fadeIn"
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-12 bg-white shadow rounded h-full">
-                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">
-                      5
-                    </div>
+                  <div className="p-6 bg-white shadow rounded h-full">
                     <img
-                      className="h-36 mx-auto my-4 w-full object-cover rounded"
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/5.jpg"
                       alt="Sunergy"
                     />
@@ -188,7 +166,6 @@ const Index2 = () => {
                     <p className="text-sm text-blueGray-400 leading-relaxed">
                       Helping our clients to communicate their sustainability
                       strategies and performance in a clear and compelling way.
-                      …
                     </p>
                     <Link
                       href="/services/ESG-impact-reporting"
@@ -338,128 +315,122 @@ const Index2 = () => {
           </div>
         </section>
 
-        <section className="py-20 bg-slate-50" id="how-we-work">
+        <section className="pt-1 pb-20 " id="key-features">
           <div className="container">
-            <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
-              <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
-                <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown">
-                  <span>AREAS OF</span>
-                  <span className="text-cyan-500"> EXPERTISE</span>
-                  <span> :</span>
-                  <br />
-                </h2>
+            <div className="text-center mb-20 mt-16">
+              <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn animated">
+                <span>AREAS OF </span>
+                <span className="text-cyan-400">EXPERTISE </span>
+              </h2>
+            </div>
+          </div>
+          <div className="w-full min-h-[300px] bg-cyan-400 flex items-center  justify-center">
+            <div className="container grid-cols-2 justify-center flex-wrap  grid  md:grid-cols-3 ">
+              <div
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center"
+                data-wow-delay=".2s"
+              >
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                  <img
+                    className="  w-16 "
+                    src="/assets/imgs/services/1.png"
+                    alt="team"
+                  />
+                </div>
+                <div className="sm:py-2 ml-2 sm:ml-6">
+                  <div className="sm:text-2xl font-bold font-heading count text-white ">
+                    Electric Vehicles
+                  </div>
+                </div>
               </div>
-              <div className="w-full lg:w-1/2">
-                <div
-                  className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
-                    <img
-                      className="  w-16 "
-                      src="/assets/imgs/services/1.png"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="sm:py-2 ml-2 sm:ml-6">
-                    <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                    <span className="sm:text-2xl font-bold font-heading count">
-                      Electric Vehicles
-                    </span>
-                  </div>
-                </div>
-                <div
-                  className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
-                    <img
-                      className="  w-16 "
-                      src="/assets/imgs/services/2.png"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="sm:py-2 ml-2 sm:ml-6">
-                    <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                    <span className="sm:text-2xl font-bold font-heading count">
-                      Storage Solutions
-                    </span>
-                  </div>
-                </div>
-                <div
-                  className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
-                    <img
-                      className="  w-16 "
-                      src="/assets/imgs/services/3.png"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="sm:py-2 ml-2 sm:ml-6">
-                    <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                    <span className="sm:text-2xl font-bold font-heading count">
-                      Energy Efficiency
-                    </span>
-                  </div>
-                </div>
 
-                <div
-                  className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
-                    <img
-                      className="  w-16 "
-                      src="/assets/imgs/services/4.png"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="sm:py-2 ml-2 sm:ml-6">
-                    <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                    <span className="sm:text-2xl font-bold font-heading count">
-                      Solar Energy (PV& CSP)
-                    </span>
-                  </div>
+              <div
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
+                data-wow-delay=".2s"
+              >
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                  <img
+                    className="  w-16 "
+                    src="/assets/imgs/services/2.png"
+                    alt="team"
+                  />
                 </div>
-
-                <div
-                  className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
-                    <img
-                      className="  w-16 "
-                      src="/assets/imgs/services/5.png"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="sm:py-2 ml-2 sm:ml-6">
-                    <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                    <span className="sm:text-2xl font-bold font-heading count">
-                      Climate Finance
-                    </span>
-                  </div>
+                <div className="sm:py-2 ml-2 sm:ml-6">
+                  <span className="sm:text-2xl font-bold font-heading count text-white">
+                    Storage Solutions
+                  </span>
                 </div>
+              </div>
 
-                <div
-                  className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24">
-                    <img
-                      className="  w-16 "
-                      src="/assets/imgs/services/6.png"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="sm:py-2 ml-2 sm:ml-6">
-                    <div className="sm:text-2xl font-bold font-heading h-7"></div>
-                    <span className="sm:text-2xl font-bold font-heading count">
-                      Off Grid and Hybrid Power Systems
-                    </span>
-                  </div>
+              <div
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
+                data-wow-delay=".2s"
+              >
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                  <img
+                    className="  w-16 "
+                    src="/assets/imgs/services/3.png"
+                    alt="team"
+                  />
+                </div>
+                <div className="sm:py-2 ml-2 sm:ml-6">
+                  <span className="sm:text-2xl font-bold font-heading count text-white">
+                    Energy Efficiency
+                  </span>
+                </div>
+              </div>
+
+              <div
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
+                data-wow-delay=".2s"
+              >
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                  <img
+                    className="  w-16 "
+                    src="/assets/imgs/services/4.png"
+                    alt="team"
+                  />
+                </div>
+                <div className="sm:py-2 ml-2 sm:ml-6">
+                  <span className="sm:text-2xl font-bold font-heading count text-white">
+                    Solar Energy (PV& CSP)
+                  </span>
+                </div>
+              </div>
+
+              <div
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
+                data-wow-delay=".2s"
+              >
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                  <img
+                    className="  w-16 "
+                    src="/assets/imgs/services/5.png"
+                    alt="team"
+                  />
+                </div>
+                <div className="sm:py-2 ml-2 sm:ml-6">
+                  <span className="sm:text-2xl font-bold font-heading count text-white">
+                    Climate Finance
+                  </span>
+                </div>
+              </div>
+
+              <div
+                className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
+                data-wow-delay=".2s"
+              >
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12  sm:h-24 sm:w-24 md:min-w-[96px]">
+                  <img
+                    className="  w-16 "
+                    src="/assets/imgs/services/6.png"
+                    alt="team"
+                  />
+                </div>
+                <div className="sm:py-2 ml-2 sm:ml-6">
+                  <span className="sm:text-2xl font-bold font-heading count text-white">
+                    Off Grid and Hybrid Power Systems
+                  </span>
                 </div>
               </div>
             </div>
