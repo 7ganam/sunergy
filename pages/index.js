@@ -1,8 +1,8 @@
-import React from "react";
 import Layout from "../components/layout/Layout";
+import Link from "next/link";
+import React from "react";
 import Slider2 from "../components/slider/Slider2";
 import TextEffect from "../components/elements/TextEffect";
-import Link from "next/link";
 
 const images = [
   "/assets/imgs/home/l1.png",
@@ -29,13 +29,13 @@ const Index2 = () => {
               <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
               <div className="text-center">
                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl -z-30">
-                  A Leading Consulting and Advisory Firm Based in the UAE
+                  A Specialized Consulting and Advisory Firm Based in the UAE
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-white">
-                  We are committed to helping organizations in the MENA region
-                  navigate the complexities of the clean energy and
-                  sustainability sector through our specialized consulting and
-                  advisory services.
+                  We are committed to helping both public and private sector
+                  entities, with existing or planned presence in MENA, navigate
+                  the complexities of the clean energy and sustainability
+                  markets through our unique consulting and advisory services.
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <div className="text-center lg:text-left">

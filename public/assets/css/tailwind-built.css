@@ -1981,13 +1981,13 @@ li.menu-item-has-children.active .menu-expand {
 }
 
 .preloader .logo {
-  top: 50%;
-  left: 50%;
+  top: calc(50vh - 150px);
+  left: calc(50% - 150px);
   transform: translateX(-50%) translateY(-50%);
 }
 
 .preloader .logo img {
-  width: 50px;
+  width: 300px;
 }
 
 /*Animation*/

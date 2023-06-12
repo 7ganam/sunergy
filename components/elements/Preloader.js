@@ -5,9 +5,12 @@ const Preloader = () => {
     <>
       <div id="preloader-active">
         <div className="preloader flex-1 content-center">
-          <div className="logo absolute inset-y-2/4 jump">
-            <img src="/assets/imgs/logos/favicon.svg" alt="Sunergy" />
-            <h1 className="text-lg font-semibold">sunergy</h1>
+          <div className="logo absolute  jump">
+            <img
+              className="h-[300px] w-[300px]"
+              src="/assets/imgs/logos/favicon.svg"
+              alt="Sunergy"
+            />
           </div>
         </div>
       </div>

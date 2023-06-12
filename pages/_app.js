@@ -1,10 +1,11 @@
 import "../public/assets/css/animate.min.css";
-import React, { useEffect, useState } from "react";
-import Head from "next/head";
-
 import "../public/assets/css/tailwind-built.css";
-import Preloader from "../components/elements/Preloader";
 import "swiper/css";
+
+import React, { useEffect, useState } from "react";
+
+import Head from "next/head";
+import Preloader from "../components/elements/Preloader";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);

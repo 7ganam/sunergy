@@ -1,5 +1,5 @@
-import React from "react";
 import Link from "next/link";
+import React from "react";
 
 const Footer = () => {
   return (
@@ -23,9 +23,9 @@ const Footer = () => {
             </div>
             <div className="w-full lg:w-2/5 px-3 mb-8 lg:mb-0">
               <p className="max-w-md mx-auto lg:max-w-full lg:mx-0 lg:pr-32 lg:text-lg text-white leading-relaxed">
-                Sunergy is a leading consulting and advisory firm based in the
-                UAE that specializes in the clean energy and sustainability
-                sector in the
+                Sunergy is a leading Clean Tech consulting and advisory firm
+                based in the UAE that specializes in the clean energy and
+                sustainability sectors in the
                 <strong> MENA region.</strong>
               </p>
             </div>
@@ -41,7 +41,7 @@ const Footer = () => {
               <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-slate-800">
                 Contacts
               </p>
-              <p className="lg:text-lg text-white">+971 50 953 8852</p>
+
               <p className="lg:text-lg text-white">info@sunergyadvisory.com</p>
             </div>
           </div>
