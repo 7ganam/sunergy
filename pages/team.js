@@ -1,5 +1,5 @@
-import React from "react";
 import Layout from "../components/layout/Layout";
+import React from "react";
 
 const Team = () => {
   return (
@@ -557,7 +557,7 @@ const Team = () => {
                         <input
                           className="w-full p-4 text-xs font-semibold leading-none bg-slate-50 rounded outline-none"
                           type="email"
-                          placeholder="name@example.com"
+                          placeholder="email"
                         />
                       </div>
                       <div>

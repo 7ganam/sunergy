@@ -55,14 +55,14 @@ const About = () => {
 
         <section className=" " id="key-features">
           <div className="w-full min-h-[300px] bg-cyan-400 flex items-center  justify-center">
-            <div className="container grid-cols-2 justify-center flex-wrap  grid  md:grid-cols-3 ">
+            <div className="container grid-cols-1 justify-center flex-wrap  grid  md:grid-cols-3 ">
               <div
                 className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center"
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 min-w-[50px] md:min-w-[96px]">
                   <img
-                    className="  w-16 "
+                    className="  w-16 max-w-[80%]"
                     src="/assets/imgs/about/q1.png"
                     alt="team"
                   />
@@ -78,9 +78,9 @@ const About = () => {
                 className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 min-w-[50px] md:min-w-[96px]">
                   <img
-                    className="  w-16 "
+                    className="  w-16 max-w-[80%]"
                     src="/assets/imgs/about/q2.png"
                     alt="team"
                   />
@@ -96,9 +96,9 @@ const About = () => {
                 className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 min-w-[50px] md:min-w-[96px]">
                   <img
-                    className="  w-16 "
+                    className="  w-16 max-w-[80%]"
                     src="/assets/imgs/about/q3.png"
                     alt="team"
                   />
@@ -114,9 +114,9 @@ const About = () => {
                 className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 min-w-[50px] md:min-w-[96px]">
                   <img
-                    className="  w-16 "
+                    className="  w-16 max-w-[80%]"
                     src="/assets/imgs/about/q4.png"
                     alt="team"
                   />
@@ -132,9 +132,9 @@ const About = () => {
                 className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 md:min-w-[96px]">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 min-w-[50px] md:min-w-[96px]">
                   <img
-                    className="  w-16 "
+                    className="  w-16 max-w-[80%]"
                     src="/assets/imgs/about/q5.png"
                     alt="team"
                   />
@@ -150,9 +150,9 @@ const About = () => {
                 className="flex  lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn items-center  "
                 data-wow-delay=".2s"
               >
-                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12  sm:h-24 sm:w-24 md:min-w-[96px]">
+                <div className="flex justify-center items-center bg-slate-50 text-cyan-500 rounded-xl h-12 w-12 sm:h-24 sm:w-24 min-w-[50px] md:min-w-[96px]">
                   <img
-                    className="  w-16 "
+                    className="  w-16 max-w-[80%]"
                     src="/assets/imgs/services/6.png"
                     alt="team"
                   />
@@ -189,7 +189,7 @@ const About = () => {
                   <img
                     src={image}
                     alt=""
-                    className="bg-white h-[100px] p-4 rounded-lg shadow-lg"
+                    className=" p-4 w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
                   />
                 </div>
               ))}
@@ -201,7 +201,7 @@ const About = () => {
                   <img
                     src={image}
                     alt=""
-                    className="bg-white h-[100px] p-4 rounded-lg shadow-lg"
+                    className="p-4 w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
                   />
                 </div>
               ))}
@@ -364,7 +364,7 @@ const About = () => {
                     <input
                       className="w-full p-4 text-xs font-semibold leading-none bg-slate-50 rounded outline-none"
                       type="email"
-                      placeholder="name@example.com"
+                      placeholder="email"
                     />
                   </div>
                   <div

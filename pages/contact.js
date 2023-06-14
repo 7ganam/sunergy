@@ -109,7 +109,7 @@ const Contact = () => {
                     <input
                       className="w-full p-4 text-xs font-semibold leading-none bg-slate-50 rounded outline-none"
                       type="email"
-                      placeholder="name@example.com"
+                      placeholder="email"
                       name="email"
                       {...register("email", {
                         required: true,

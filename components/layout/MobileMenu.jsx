@@ -142,8 +142,8 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
             </ul>
             <div className="mt-4 pt-6 border-t border-slate-100">
               <Link href="/contact" legacyBehavior>
-                <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded">
-                  Request consultation
+                <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-cyan-400 hover:bg-cyan-500 text-white rounded">
+                  Request Consultation
                 </a>
               </Link>
             </div>
