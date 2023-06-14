@@ -1,6 +1,6 @@
-import React from "react";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
+import React from "react";
 
 const Services = () => {
   return (
@@ -120,11 +120,12 @@ const Services = () => {
                     className="mb-6 leading-loose text-slate-400 wow animate__animated animate__fadeIn whitespace-pre-line"
                     data-wow-delay=".1s"
                   >
-                    {`Digital Marketing
-Market Entry Strategy
-Content Management
-Project Development & Finance
-ESG & Impact Reporting`}
+                    {`Project Development
+ESG
+Market Research and Strategy Development
+Technology Assessment
+Startup Advisory
+Event and Content Management`}
                   </p>
 
                   <div className="mb-4">

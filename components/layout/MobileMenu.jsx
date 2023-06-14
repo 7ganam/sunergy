@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import Link from "next/link";
 
 const MobileMenu = ({ hiddenClass, handleRemove }) => {
@@ -78,23 +79,23 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                 </Link>
                 <ul className={isActive.key == 1 ? "dropdown pl-5" : "hidden"}>
                   <li>
-                    <Link href="/services/market-entry" legacyBehavior>
+                    <Link href="/services/market-research" legacyBehavior>
                       <a className="block p-3 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-500">
-                        Market Entry Strategy
+                        Market Research
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/digital-marketing" legacyBehavior>
+                    <Link href="/services/technology-assessment" legacyBehavior>
                       <a className="block p-3 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-500">
-                        Digital Marketing
+                        Technology Assessment
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/content-management" legacyBehavior>
+                    <Link href="/services/startup-advisory" legacyBehavior>
                       <a className="block p-3 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-500">
-                        Content Management
+                        Startup Advisory
                       </a>
                     </Link>
                   </li>
@@ -102,6 +103,23 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                     <Link href="/services/project-development" legacyBehavior>
                       <a className="block p-3 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-500">
                         Project Development & Finance
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/ESG" legacyBehavior>
+                      <a className="block p-3 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-500">
+                        ESG
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/services/event-and-content-management"
+                      legacyBehavior
+                    >
+                      <a className="block p-3 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-500">
+                        Event and Content Management
                       </a>
                     </Link>
                   </li>

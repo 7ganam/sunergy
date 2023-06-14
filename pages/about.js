@@ -1,6 +1,6 @@
-import React from "react";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
+import React from "react";
 
 const images = [
   "/assets/imgs/home/l1.png",
@@ -273,7 +273,7 @@ const About = () => {
                     data-wow-delay=".1s"
                   >
                     <img
-                      className="mb-6 h-32 w-32 mx-auto rounded-full object-cover object-top"
+                      className="mb-6 h-64 w-64 mx-auto rounded-full object-cover object-top"
                       src="/assets/imgs/placeholders/hazem.png"
                       alt="Sunergy"
                     />
@@ -291,7 +291,7 @@ const About = () => {
                     data-wow-delay=".3s"
                   >
                     <img
-                      className="mb-6 h-32 w-32 mx-auto rounded-full object-cover object-top"
+                      className="mb-6 h-64 w-64 mx-auto rounded-full object-cover object-top"
                       src="/assets/imgs/placeholders/raed.png"
                       alt="Sunergy"
                     />
@@ -309,7 +309,7 @@ const About = () => {
                     data-wow-delay=".3s"
                   >
                     <img
-                      className="mb-6 h-32 w-32 mx-auto rounded-full object-cover object-top"
+                      className="mb-6 h-64 w-64 mx-auto rounded-full object-cover object-top"
                       src="/assets/imgs/placeholders/samir.png"
                       alt="Sunergy"
                     />

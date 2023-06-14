@@ -1,8 +1,11 @@
+import React, { useState } from "react";
+import { set, useForm } from "react-hook-form";
+
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
-import React from "react";
 import Slider2 from "../components/slider/Slider2";
 import TextEffect from "../components/elements/TextEffect";
+import axios from "axios";
 
 const images = [
   "/assets/imgs/home/l1.png",
@@ -13,6 +16,51 @@ const images = [
 ];
 
 const Index2 = () => {
+  const [success, setSuccess] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const { register, handleSubmit } = useForm();
+  const onFormSubmit = (data) => {
+    setLoading(true);
+
+    axios({
+      method: "POST",
+      url: "https://formspree.io/f/xknaadov",
+      data: data,
+    })
+      .then((response) => {
+        setSuccess(true);
+        setLoading(false);
+      })
+      .catch((error) => {
+        setSuccess(false);
+        setLoading(false);
+      });
+  };
+
+  const onErrors = (errors) => console.error(errors);
+
+  const displaySubmitButton = () => {
+    if (success) {
+      return (
+        <span className="ml-auto inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-lg font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+          Form submitted successfully
+        </span>
+      );
+    } else if (loading) {
+      return <div>loading...</div>;
+    } else {
+      return (
+        <button
+          className="ml-auto py-4 px-8 text-sm text-white font-semibold leading-none bg-cyan-500 hover:bg-cyan-700 rounded"
+          type="submit"
+        >
+          Submit
+        </button>
+      );
+    }
+  };
+
   return (
     <>
       <Layout>
@@ -82,7 +130,7 @@ const Index2 = () => {
                       alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
-                      Project Development& Finance
+                      Project Development
                     </h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
                       Our team's wealth of experience in project development and
@@ -114,18 +162,12 @@ const Index2 = () => {
                       src="/assets/imgs/home/5.jpg"
                       alt="Sunergy"
                     />
-                    <h3 className="mb-2 font-bold font-heading text-xl">
-                      ESG& Impact Reporting
-                    </h3>
+                    <h3 className="mb-2 font-bold font-heading text-xl">ESG</h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
                       Helping our clients to communicate their sustainability
                       strategies and performance in a clear and compelling way.
                     </p>
-                    <Link
-                      href="/services/ESG-impact-reporting"
-                      legacyBehavior
-                      className="mt-4"
-                    >
+                    <Link href="/services/ESG" legacyBehavior className="mt-4">
                       <a
                         className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
                         data-wow-delay=".5s"
@@ -147,15 +189,15 @@ const Index2 = () => {
                       alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
-                      Market Entry Strategy
+                      Market Research and Strategy Development
                     </h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
-                      We've established a strong track record of partnering with
-                      clients to successfully penetrate the MENA region,
-                      leveraging our expertise and experience
+                      Make informed decisions and achieve your growth objectives
+                      with our comprehensive market research and strategic
+                      planning services.
                     </p>
                     <Link
-                      href="/services/market-entry"
+                      href="/services/market-research"
                       legacyBehavior
                       className="mt-4"
                     >
@@ -180,15 +222,14 @@ const Index2 = () => {
                       alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
-                      Digital Marketing
+                      Technology Assessment{" "}
                     </h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
-                      Unlock the potential of MENA through our digital marketing
-                      expertise. Let us help your business thrive in the digital
-                      realm.
+                      Validate tech readiness, market potential and MENA
+                      application for investors, acquirers, and universities.
                     </p>
                     <Link
-                      href="/services/digital-marketing"
+                      href="/services/technology-assessment"
                       legacyBehavior
                       className="mt-4"
                     >
@@ -213,15 +254,47 @@ const Index2 = () => {
                       alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
-                      Content Management
+                      Startup Advisory
+                    </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      Transform your startup idea into a thriving business with
+                      our comprehensive advisory services.
+                    </p>
+                    <Link
+                      href="/services/startup-advisory"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-6 bg-white shadow rounded h-full">
+                    <img
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/6.jpg"
+                      alt="Sunergy"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">
+                      Event and Content Management
                     </h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
                       MENA business success starts with great content
                       management. Let our experts help you to have the most
-                      suitable content and speakers.
+                      suitable content and speakers.{" "}
                     </p>
                     <Link
-                      href="/services/content-management"
+                      href="/services/event-and-content-management"
                       legacyBehavior
                       className="mt-4"
                     >
@@ -336,30 +409,7 @@ const Index2 = () => {
                   Get in touch!
                 </h2>
               </div>
-              <div className="flex flex-wrap -mx-3 text-center">
-                <div
-                  className="w-1/2 lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated"
-                  data-wow-delay=".1s"
-                >
-                  <svg
-                    className="mb-6 h-8 w-8 mx-auto text-cyan-400"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    ></path>
-                  </svg>
-                  <div className="leading-relaxed">
-                    <span className="text-sm text-slate-400">Phone</span>
-                    <p>+ +971 50 953 8852</p>
-                  </div>
-                </div>
+              <div className="flex flex-wrap -mx-3 text-center justify-center">
                 <div
                   className="w-1/2 lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeIn animated"
                   data-wow-delay=".3s"
@@ -415,7 +465,7 @@ const Index2 = () => {
                 </div>
               </div>
               <div>
-                <form>
+                <form onSubmit={handleSubmit(onFormSubmit, onErrors)}>
                   <div
                     className="flex flex-wrap mb-4 -mx-3 wow animate__animated animate__fadeIn animated"
                     data-wow-delay=".3s"
@@ -426,6 +476,10 @@ const Index2 = () => {
                           className="w-full p-4 text-xs font-semibold leading-none bg-slate-50 rounded outline-none"
                           type="text"
                           placeholder="Subject"
+                          name="subject"
+                          {...register("subject", {
+                            required: true,
+                          })}
                         />
                       </div>
                       <div className="mb-4">
@@ -433,6 +487,10 @@ const Index2 = () => {
                           className="w-full p-4 text-xs font-semibold leading-none bg-slate-50 rounded outline-none"
                           type="text"
                           placeholder="Name"
+                          name="name"
+                          {...register("name", {
+                            required: true,
+                          })}
                         />
                       </div>
                       <div className="mb-4">
@@ -440,6 +498,10 @@ const Index2 = () => {
                           className="w-full p-4 text-xs font-semibold leading-none bg-slate-50 rounded outline-none"
                           type="email"
                           placeholder="name@example.com"
+                          name="email"
+                          {...register("email", {
+                            required: true,
+                          })}
                         />
                       </div>
                     </div>
@@ -447,27 +509,22 @@ const Index2 = () => {
                       <textarea
                         className="w-full h-full p-4 text-xs font-semibold leading-none resize-none bg-slate-50 rounded outline-none"
                         placeholder="Message..."
+                        name="message"
+                        {...register("message", {
+                          required: true,
+                        })}
                       ></textarea>
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
-                    <label>
-                      <input
-                        className="mr-1"
-                        type="checkbox"
-                        name="terms"
-                        value="1"
-                      />
-                      <span className="text-sm font-semibold">
-                        I agree to terms and conditions.
-                      </span>
-                    </label>
-                    <button
+                    {displaySubmitButton()}
+
+                    {/* <button
                       className="py-4 px-8 text-sm text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded"
                       type="submit"
                     >
                       Submit
-                    </button>
+                    </button> */}
                   </div>
                 </form>
               </div>

@@ -1,9 +1,57 @@
-import React from "react";
+import React, { useState } from "react";
+import { set, useForm } from "react-hook-form";
+
 import Layout from "../components/layout/Layout";
-import TextEffect from "../components/elements/TextEffect";
 import Link from "next/link";
+import TextEffect from "../components/elements/TextEffect";
+import axios from "axios";
 
 const Contact = () => {
+  const [success, setSuccess] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const { register, handleSubmit } = useForm();
+  const onFormSubmit = (data) => {
+    setLoading(true);
+
+    axios({
+      method: "POST",
+      url: "https://formspree.io/f/xknaadov",
+      data: data,
+    })
+      .then((response) => {
+        setSuccess(true);
+        setLoading(false);
+      })
+      .catch((error) => {
+        setSuccess(false);
+        setLoading(false);
+      });
+  };
+
+  const onErrors = (errors) => console.error(errors);
+
+  const displaySubmitButton = () => {
+    if (success) {
+      return (
+        <span className="ml-auto inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-lg font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+          Form submitted successfully
+        </span>
+      );
+    } else if (loading) {
+      return <div>loading...</div>;
+    } else {
+      return (
+        <button
+          className="ml-auto py-4 px-8 text-sm text-white font-semibold leading-none bg-cyan-500 hover:bg-cyan-700 rounded"
+          type="submit"
+        >
+          Submit
+        </button>
+      );
+    }
+  };
+
   return (
     <>
       <Layout>
@@ -13,7 +61,7 @@ const Contact = () => {
             style={{ zIndex: "-1" }}
           ></div>
         </section>
-        <section className="py-20">
+        <section className="py-20 my-32">
           <div className="container">
             <div className="max-w-2xl mx-auto text-center">
               <div className="max-w-md mb-8 mx-auto">
@@ -25,7 +73,7 @@ const Contact = () => {
                 </h2>
               </div>
               <div>
-                <form>
+                <form onSubmit={handleSubmit(onFormSubmit, onErrors)}>
                   <div
                     className="mb-4 wow animate__animatedanimated animate__fadeIn"
                     data-wow-delay=".3s"
@@ -34,6 +82,10 @@ const Contact = () => {
                       className="w-full p-4 text-xs font-semibold leading-none bg-slate-50 rounded outline-none"
                       type="text"
                       placeholder="Subject"
+                      name="subject"
+                      {...register("subject", {
+                        required: true,
+                      })}
                     />
                   </div>
                   <div
@@ -44,6 +96,10 @@ const Contact = () => {
                       className="w-full p-4 text-xs font-semibold leading-none bg-slate-50 rounded outline-none"
                       type="text"
                       placeholder="Name"
+                      name="name"
+                      {...register("name", {
+                        required: true,
+                      })}
                     />
                   </div>
                   <div
@@ -54,6 +110,10 @@ const Contact = () => {
                       className="w-full p-4 text-xs font-semibold leading-none bg-slate-50 rounded outline-none"
                       type="email"
                       placeholder="name@example.com"
+                      name="email"
+                      {...register("email", {
+                        required: true,
+                      })}
                     />
                   </div>
                   <div
@@ -63,6 +123,10 @@ const Contact = () => {
                     <textarea
                       className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-slate-50 rounded outline-none"
                       placeholder="Message..."
+                      name="message"
+                      {...register("message", {
+                        required: true,
+                      })}
                     ></textarea>
                   </div>
 
@@ -70,23 +134,7 @@ const Contact = () => {
                     className="flex justify-between items-center wow animate__animatedanimated animate__fadeIn"
                     data-wow-delay=".3s"
                   >
-                    <label>
-                      <input
-                        className="mr-1"
-                        type="checkbox"
-                        name="terms"
-                        value="1"
-                      />
-                      <span className="text-sm font-semibold">
-                        I agree to terms and conditions.
-                      </span>
-                    </label>
-                    <button
-                      className="py-4 px-8 text-sm text-white font-semibold leading-none bg-cyan-500 hover:bg-cyan-700 rounded"
-                      type="submit"
-                    >
-                      Submit
-                    </button>
+                    {displaySubmitButton()}
                   </div>
                 </form>
               </div>

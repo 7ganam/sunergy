@@ -1,6 +1,7 @@
+import { useEffect, useState } from "react";
+
 import Link from "next/link";
 import React from "react";
-import { useState, useEffect } from "react";
 
 const Header = ({ handleHidden }) => {
   const [scroll, setScroll] = useState(0);
@@ -46,37 +47,47 @@ const Header = ({ handleHidden }) => {
                 </Link>
                 <ul className="drop-down-menu min-w-200">
                   <li>
-                    <Link href="/services/market-entry" legacyBehavior>
+                    <Link href="/services/market-research" legacyBehavior>
                       <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
-                        Market Entry Strategy
+                        Market Research & Strategy Development
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/digital-marketing" legacyBehavior>
+                    <Link href="/services/technology-assessment" legacyBehavior>
                       <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
-                        Digital Marketing
+                        Technology Assessment
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/content-management" legacyBehavior>
+                    <Link href="/services/startup-advisory" legacyBehavior>
                       <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
-                        Content Management
+                        Startup Advisory
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/services/project-development" legacyBehavior>
                       <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
-                        Project Development & Finance
+                        Project Development
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/ESG-impact-reporting" legacyBehavior>
+                    <Link href="/services/ESG" legacyBehavior>
                       <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
-                        ESG& Impact Reporting
+                        ESG
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/services/event-and-content-management"
+                      legacyBehavior
+                    >
+                      <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
+                        Event and Content Management
                       </a>
                     </Link>
                   </li>

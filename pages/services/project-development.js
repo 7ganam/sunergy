@@ -1,8 +1,85 @@
-import React from "react";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
+import React from "react";
+
+const data = [
+  {
+    id: 1,
+    title: "Project Planning and Management",
+    image: "/assets/imgs/services/b1.png",
+    points: [
+      "Develop project scope and objectives",
+      "Create project timeline and milestones",
+      "Define project budget and resource requirements",
+    ],
+  },
+  {
+    id: 2,
+    title: "Risk Assessment",
+    image: "/assets/imgs/services/b2.png",
+
+    points: [
+      "Identify potential project risks and challenges",
+      "Develop risk mitigation strategies",
+      "Monitor and manage project risks",
+    ],
+  },
+  {
+    id: 3,
+    title: "Stakeholders Engagement",
+    image: "/assets/imgs/services/b3.png",
+    points: [
+      "Identify stakeholders and their needs",
+      "Develop engagement and communication plans",
+      "Provide regular project updates and reports",
+    ],
+  },
+];
 
 const Services = () => {
+  const displayData = (data) =>
+    data.map((item) => {
+      return (
+        <div key={item.id} className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+          <div
+            className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn"
+            data-wow-delay=".2s"
+          >
+            <img className="h-32 mb-6 mx-auto" src={item.image} alt="Sunergy" />
+            <h3 className="mb-2 text-4xl font-bold font-heading text-cyan-500">
+              {item.title}
+            </h3>
+
+            <div className="flex flex-col items-center mb-8 mt-8">
+              <ul className="text-slate-400">
+                {item.points.map((point, index) => {
+                  return (
+                    <li key={index} className="flex mb-3">
+                      <svg
+                        className="w-[25px] h-[25px] min-w-[25px] mr-2 text-cyan-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                        ></path>
+                      </svg>
+                      <span className="text-left">{point}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          </div>
+        </div>
+      );
+    });
+
   return (
     <>
       <Layout>
@@ -46,7 +123,7 @@ const Services = () => {
               </li>
               <li className="inline-flex items-center">
                 <a href="#" className="hover:text-cyan-500 text-gray-800">
-                  Project Development & Finance
+                  Project Development
                 </a>
               </li>
             </ul>
@@ -60,345 +137,15 @@ const Services = () => {
                 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn"
                 data-wow-delay=".2s"
               >
-                <span>PROJECT DEVELOPMENT</span>
-                <span className="text-cyan-500"> & FINANCE </span>
+                <span>PROJECT</span>
+                <span className="text-cyan-500"> DEVELOPMENT</span>
               </h2>
               <p
                 className="max-w-sm mx-auto text-lg text-slate-400 wow animate__animated animate__fadeInDown"
                 data-wow-delay=".5s"
               ></p>
             </div>
-            <div className="flex flex-wrap -mx-3">
-              <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
-                <div
-                  className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <img
-                    className="h-32 mb-6 mx-auto"
-                    src="/assets/imgs/services/e4.png"
-                    alt="Sunergy"
-                  />
-                  <h3 className="mb-2 text-4xl font-bold font-heading">
-                    Full Cycle Project Development
-                  </h3>
-
-                  <div className="flex flex-col items-center mb-8">
-                    <ul className="text-slate-400">
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span>Project planning</span>
-                      </li>
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span>Technology selection</span>
-                      </li>
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span>Investor engagement</span>
-                      </li>
-
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span>Financial modeling</span>
-                      </li>
-
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span>Regulatory compliance</span>
-                      </li>
-                      <li className="flex">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span>Contractor selection</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
-                <div
-                  className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <img
-                    className="h-32 mb-6 mx-auto"
-                    src="/assets/imgs/services/e5.png"
-                    alt="Sunergy"
-                  />
-                  <h3 className="mb-2 text-4xl font-bold font-heading">
-                    Asset Management Services{" "}
-                  </h3>
-
-                  <div className="flex flex-col items-center mb-8">
-                    <ul className="text-slate-400">
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span>Commercial Operation Date posting</span>
-                      </li>
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span>O&M planning and execution</span>
-                      </li>
-
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span className="text-start">
-                          Billing and asset management services
-                        </span>
-                      </li>
-
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span>O&M management</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
-                <div
-                  className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn"
-                  data-wow-delay=".2s"
-                >
-                  <img
-                    className="h-32 mb-6 mx-auto"
-                    src="/assets/imgs/services/e6.png"
-                    alt="Sunergy"
-                  />
-                  <h3 className="mb-2 text-4xl font-bold font-heading">
-                    AREAS OF EXPERTISE{" "}
-                  </h3>
-
-                  <div className="flex flex-col items-center mb-8">
-                    <ul className="text-slate-400">
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span className="text-start">
-                          Solar PV (Utility, Commercial and Industrial sectors)
-                        </span>
-                      </li>
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span className="text-start">
-                          Electric Vehicles (Infrastructure Development)
-                        </span>
-                      </li>
-                      <li className="flex mb-3 ">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span className="text-start">Energy Efficiency</span>
-                      </li>
-
-                      <li className="flex mb-3 ">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span className="text-start">Climate Finance</span>
-                      </li>
-
-                      <li className="flex mb-3">
-                        <svg
-                          className="w-6 h-6 mr-2 text-green-500"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          ></path>
-                        </svg>
-                        <span className="text-start">Storage Solutions</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div className="flex flex-wrap -mx-3">{displayData(data)}</div>
           </div>
         </section>
 
@@ -419,21 +166,48 @@ const Services = () => {
                   <div className="p-6 bg-white shadow rounded h-full">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
-                      src="/assets/imgs/home/5.jpg"
+                      src="/assets/imgs/home/4.jpg"
                       alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
-                      ESG& Impact Reporting
+                      Project Development
                     </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      Our team's wealth of experience in project development and
+                      finance enables successful solutions that drive business
+                      success.
+                    </p>
+                    <Link
+                      href="/services/project-development"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-6 bg-white shadow rounded h-full">
+                    <img
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/5.jpg"
+                      alt="Sunergy"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">ESG</h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
                       Helping our clients to communicate their sustainability
                       strategies and performance in a clear and compelling way.
                     </p>
-                    <Link
-                      href="/services/ESG-impact-reporting"
-                      legacyBehavior
-                      className="mt-4"
-                    >
+                    <Link href="/services/ESG" legacyBehavior className="mt-4">
                       <a
                         className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
                         data-wow-delay=".5s"
@@ -455,15 +229,15 @@ const Services = () => {
                       alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
-                      Market Entry Strategy
+                      Market Research and Strategy Development
                     </h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
-                      We've established a strong track record of partnering with
-                      clients to successfully penetrate the MENA region,
-                      leveraging our expertise and experience
+                      Make informed decisions and achieve your growth objectives
+                      with our comprehensive market research and strategic
+                      planning services.
                     </p>
                     <Link
-                      href="/services/market-entry"
+                      href="/services/market-research"
                       legacyBehavior
                       className="mt-4"
                     >
@@ -488,15 +262,14 @@ const Services = () => {
                       alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
-                      Digital Marketing
+                      Technology Assessment{" "}
                     </h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
-                      Unlock the potential of MENA through our digital marketing
-                      expertise. Let us help your business thrive in the digital
-                      realm.
+                      Validate tech readiness, market potential and MENA
+                      application for investors, acquirers, and universities.
                     </p>
                     <Link
-                      href="/services/digital-marketing"
+                      href="/services/technology-assessment"
                       legacyBehavior
                       className="mt-4"
                     >
@@ -521,15 +294,47 @@ const Services = () => {
                       alt="Sunergy"
                     />
                     <h3 className="mb-2 font-bold font-heading text-xl">
-                      Content Management
+                      Startup Advisory
+                    </h3>
+                    <p className="text-sm text-blueGray-400 leading-relaxed">
+                      Transform your startup idea into a thriving business with
+                      our comprehensive advisory services.
+                    </p>
+                    <Link
+                      href="/services/startup-advisory"
+                      legacyBehavior
+                      className="mt-4"
+                    >
+                      <a
+                        className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
+                        data-wow-delay=".5s"
+                      >
+                        Learn More
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                <div
+                  className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
+                  data-wow-delay=".3s"
+                >
+                  <div className="p-6 bg-white shadow rounded h-full">
+                    <img
+                      className="h-36 mx-auto mb-4 w-full object-cover rounded"
+                      src="/assets/imgs/home/6.jpg"
+                      alt="Sunergy"
+                    />
+                    <h3 className="mb-2 font-bold font-heading text-xl">
+                      Event and Content Management
                     </h3>
                     <p className="text-sm text-blueGray-400 leading-relaxed">
                       MENA business success starts with great content
                       management. Let our experts help you to have the most
-                      suitable content and speakers.
+                      suitable content and speakers.{" "}
                     </p>
                     <Link
-                      href="/services/content-management"
+                      href="/services/event-and-content-management"
                       legacyBehavior
                       className="mt-4"
                     >
