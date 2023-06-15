@@ -233,7 +233,7 @@ const About = () => {
             <div class="py-12 animate-marquee whitespace-nowrap  flex items-center">
               {images2.map((image, index) => (
                 <div
-                  class="px-4 h-[150px] max-w-[70vw] bg-gray-200 min-w-[250px] m-4 rounded-xl"
+                  class="px-4 h-[150px] max-w-[70vw] bg-white min-w-[250px] m-4 rounded-xl"
                   key={index}
                 >
                   <img
@@ -248,7 +248,7 @@ const About = () => {
             <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex items-center">
               {images2.map((image, index) => (
                 <div
-                  class="px-4 h-[150px] max-w-[70vw] bg-gray-200 min-w-[250px] m-4 rounded-xl"
+                  class="px-4 h-[150px] max-w-[70vw] bg-white min-w-[250px] m-4 rounded-xl"
                   key={index}
                 >
                   <img
