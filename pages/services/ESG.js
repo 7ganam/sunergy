@@ -163,7 +163,7 @@ const Services = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/4.jpg"
@@ -177,6 +177,7 @@ const Services = () => {
                       finance enables successful solutions that drive business
                       success.
                     </p>
+                    <div className="flex-grow"></div>
                     <Link
                       href="/services/project-development"
                       legacyBehavior
@@ -196,7 +197,8 @@ const Services = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
+                    {" "}
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/5.jpg"
@@ -207,6 +209,7 @@ const Services = () => {
                       Helping our clients to communicate their sustainability
                       strategies and performance in a clear and compelling way.
                     </p>
+                    <div className="flex-grow"></div>
                     <Link href="/services/ESG" legacyBehavior className="mt-4">
                       <a
                         className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
@@ -222,7 +225,7 @@ const Services = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/1.jpg"
@@ -236,6 +239,7 @@ const Services = () => {
                       with our comprehensive market research and strategic
                       planning services.
                     </p>
+                    <div className="flex-grow"></div>
                     <Link
                       href="/services/market-research"
                       legacyBehavior
@@ -255,7 +259,7 @@ const Services = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px]  px-3 mb-6 wow animate__animated animate__fadeIn "
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/2.jpg"
@@ -268,6 +272,8 @@ const Services = () => {
                       Validate tech readiness, market potential and MENA
                       application for investors, acquirers, and universities.
                     </p>
+                    <div className="flex-grow"></div>
+
                     <Link
                       href="/services/technology-assessment"
                       legacyBehavior
@@ -287,7 +293,7 @@ const Services = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/3.jpg"
@@ -300,6 +306,8 @@ const Services = () => {
                       Transform your startup idea into a thriving business with
                       our comprehensive advisory services.
                     </p>
+                    <div className="flex-grow"></div>
+
                     <Link
                       href="/services/startup-advisory"
                       legacyBehavior
@@ -319,7 +327,7 @@ const Services = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/6.jpg"
@@ -333,6 +341,8 @@ const Services = () => {
                       management. Let our experts help you to have the most
                       suitable content and speakers.{" "}
                     </p>
+                    <div className="flex-grow"></div>
+
                     <Link
                       href="/services/event-and-content-management"
                       legacyBehavior

@@ -123,7 +123,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/4.jpg"
@@ -137,6 +137,7 @@ const Index2 = () => {
                       finance enables successful solutions that drive business
                       success.
                     </p>
+                    <div className="flex-grow"></div>
                     <Link
                       href="/services/project-development"
                       legacyBehavior
@@ -156,7 +157,8 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
+                    {" "}
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/5.jpg"
@@ -167,6 +169,7 @@ const Index2 = () => {
                       Helping our clients to communicate their sustainability
                       strategies and performance in a clear and compelling way.
                     </p>
+                    <div className="flex-grow"></div>
                     <Link href="/services/ESG" legacyBehavior className="mt-4">
                       <a
                         className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
@@ -182,7 +185,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/1.jpg"
@@ -196,6 +199,7 @@ const Index2 = () => {
                       with our comprehensive market research and strategic
                       planning services.
                     </p>
+                    <div className="flex-grow"></div>
                     <Link
                       href="/services/market-research"
                       legacyBehavior
@@ -215,7 +219,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px]  px-3 mb-6 wow animate__animated animate__fadeIn "
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/2.jpg"
@@ -228,6 +232,8 @@ const Index2 = () => {
                       Validate tech readiness, market potential and MENA
                       application for investors, acquirers, and universities.
                     </p>
+                    <div className="flex-grow"></div>
+
                     <Link
                       href="/services/technology-assessment"
                       legacyBehavior
@@ -247,7 +253,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/3.jpg"
@@ -260,6 +266,8 @@ const Index2 = () => {
                       Transform your startup idea into a thriving business with
                       our comprehensive advisory services.
                     </p>
+                    <div className="flex-grow"></div>
+
                     <Link
                       href="/services/startup-advisory"
                       legacyBehavior
@@ -279,7 +287,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/6.jpg"
@@ -293,6 +301,8 @@ const Index2 = () => {
                       management. Let our experts help you to have the most
                       suitable content and speakers.{" "}
                     </p>
+                    <div className="flex-grow"></div>
+
                     <Link
                       href="/services/event-and-content-management"
                       legacyBehavior
@@ -369,11 +379,14 @@ const Index2 = () => {
           <div class="relative flex overflow-x-hidden bg-cyan-400">
             <div class="py-12 animate-marquee whitespace-nowrap  flex items-center">
               {images.map((image, index) => (
-                <div class="px-12" key={index}>
+                <div
+                  class="px-4 h-[150px] max-w-[70vw] bg-white min-w-[250px] m-4 rounded-xl"
+                  key={index}
+                >
                   <img
                     src={image}
                     alt=""
-                    className=" p-4 w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
+                    className=" p-4   mx-auto  object-contain rounded h-[100%] w-[100%]"
                   />
                 </div>
               ))}
@@ -381,11 +394,14 @@ const Index2 = () => {
 
             <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex items-center">
               {images.map((image, index) => (
-                <div class=" px-12" key={index}>
+                <div
+                  class="px-4 h-[150px] max-w-[70vw] bg-white min-w-[250px] m-4 rounded-xl"
+                  key={index}
+                >
                   <img
                     src={image}
                     alt=""
-                    className=" p-4 w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
+                    className="p-4  mx-auto  object-contain rounded h-[100%] w-[100%]"
                   />
                 </div>
               ))}

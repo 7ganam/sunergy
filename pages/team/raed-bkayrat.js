@@ -70,7 +70,7 @@ const Services = () => {
                   className="text-4xl mt-3 font-bold font-heading wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  Raed Ahmad Bkayrat
+                  Raed Bkayrat
                 </h2>
                 <h3
                   className="text-2xl mt-3 font-bold font-heading wow animate__animated animate__fadeIn"

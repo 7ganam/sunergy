@@ -22,7 +22,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/4.jpg"
@@ -36,6 +36,7 @@ const Index2 = () => {
                       finance enables successful solutions that drive business
                       success.
                     </p>
+                    <div className="flex-grow"></div>
                     <Link
                       href="/services/project-development"
                       legacyBehavior
@@ -55,7 +56,8 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
+                    {" "}
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/5.jpg"
@@ -66,6 +68,7 @@ const Index2 = () => {
                       Helping our clients to communicate their sustainability
                       strategies and performance in a clear and compelling way.
                     </p>
+                    <div className="flex-grow"></div>
                     <Link href="/services/ESG" legacyBehavior className="mt-4">
                       <a
                         className="mt-4 inline-block text-xs py-4 px-8 text-white font-semibold leading-none bg-cyan-400 hover:bg-cyan-400 rounded hover-up-2 wow animate__animated animate__fadeIn"
@@ -81,7 +84,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/1.jpg"
@@ -95,6 +98,7 @@ const Index2 = () => {
                       with our comprehensive market research and strategic
                       planning services.
                     </p>
+                    <div className="flex-grow"></div>
                     <Link
                       href="/services/market-research"
                       legacyBehavior
@@ -114,7 +118,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px]  px-3 mb-6 wow animate__animated animate__fadeIn "
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/2.jpg"
@@ -127,6 +131,8 @@ const Index2 = () => {
                       Validate tech readiness, market potential and MENA
                       application for investors, acquirers, and universities.
                     </p>
+                    <div className="flex-grow"></div>
+
                     <Link
                       href="/services/technology-assessment"
                       legacyBehavior
@@ -146,7 +152,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/3.jpg"
@@ -159,6 +165,8 @@ const Index2 = () => {
                       Transform your startup idea into a thriving business with
                       our comprehensive advisory services.
                     </p>
+                    <div className="flex-grow"></div>
+
                     <Link
                       href="/services/startup-advisory"
                       legacyBehavior
@@ -178,7 +186,7 @@ const Index2 = () => {
                   className="hover-up- xs:w-full md:w-[370px] h-[420px] px-3 mb-6 wow animate__animated animate__fadeIn"
                   data-wow-delay=".3s"
                 >
-                  <div className="p-6 bg-white shadow rounded h-full">
+                  <div className="p-6 bg-white shadow rounded h-full flex flex-col">
                     <img
                       className="h-36 mx-auto mb-4 w-full object-cover rounded"
                       src="/assets/imgs/home/6.jpg"
@@ -192,6 +200,8 @@ const Index2 = () => {
                       management. Let our experts help you to have the most
                       suitable content and speakers.{" "}
                     </p>
+                    <div className="flex-grow"></div>
+
                     <Link
                       href="/services/event-and-content-management"
                       legacyBehavior
@@ -208,135 +218,6 @@ const Index2 = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="flex flex-wrap -mx-3 -mb-6 ">
-              <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                <div
-                  className="h-full border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
-                  data-wow-delay=".3s"
-                >
-                  <div className="text-cyan-400 mx-auto mb-4">
-                    <svg
-                      className="w-8 h-8 mx-auto"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-                      ></path>
-                    </svg>
-                  </div>
-                  <h3 className="mb-2 font-bold font-heading">
-                    Market Entry Strategy
-                  </h3>
-                  <p className="text-sm text-slate-400">
-                    Our market entry advisory services are designed specifically
-                    for the MENA region.
-                  </p>
-                </div>
-              </div>
-
-              <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                <div
-                  className="h-full  border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
-                  data-wow-delay=".5s"
-                >
-                  <div className="text-cyan-400 mx-auto mb-4">
-                    <svg
-                      className="w-8 h-8 mx-auto"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <h3 className="mb-2 font-bold font-heading">
-                    Technology Assessment
-                  </h3>
-                  <p className="text-sm text-slate-400">
-                    Sunergy Advisory provides dedicated Technology Assessment
-                    campaigns
-                  </p>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                <div
-                  className="h-full border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
-                  data-wow-delay=".7s"
-                >
-                  <div className="text-cyan-400 mx-auto mb-4">
-                    <svg
-                      className="w-8 h-8 mx-auto"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <h3 className="mb-2 font-bold font-heading">
-                    Content Management
-                  </h3>
-                  <p className="text-sm text-slate-400">
-                    Sunergy Advisory provides expert content management services
-                    for events and conferences.
-                  </p>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                <div
-                  className="h-full  border border-gray-100 pt-8 px-6 pb-6 bg-white text-center rounded shadow hover:shadow-lg hover-up-2 transition duration-500 wow animate__animated animate__fadeIn"
-                  data-wow-delay=".9s"
-                >
-                  <div className="text-cyan-400 mx-auto mb-4">
-                    <svg
-                      className="w-8 h-8 mx-auto"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"
-                      ></path>
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <h3 className="mb-2 font-bold font-heading">
-                    Project Development & Finance
-                  </h3>
-                  <p className="text-sm text-slate-400">
-                    Sunergy Advisory provides full cycle project development and
-                    finance services to help you navigate these challenges
-                  </p>
-                </div>
-              </div>
-            </div> */}
           </div>
         </section>
 

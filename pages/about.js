@@ -41,9 +41,9 @@ const About = () => {
                   Inspiring Sustainable Change
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-white z-30">
-                  Sunergy is a leading consulting and advisory firm based in the
-                  UAE that specializes in the clean energy and sustainability
-                  sector in the MENA region.
+                  Sunergy is a leading Clean Tech consulting and advisory firm
+                  based in the UAE that specializes in the clean energy and
+                  sustainability sectors in the MENA region.
                 </p>
               </div>
             </div>
@@ -185,11 +185,14 @@ const About = () => {
           <div class="relative flex overflow-x-hidden bg-cyan-400">
             <div class="py-12 animate-marquee whitespace-nowrap  flex items-center">
               {images.map((image, index) => (
-                <div class="px-12" key={index}>
+                <div
+                  class="px-4 h-[150px] max-w-[70vw] bg-white min-w-[250px] m-4 rounded-xl"
+                  key={index}
+                >
                   <img
                     src={image}
                     alt=""
-                    className=" p-4 w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
+                    className=" p-4   mx-auto  object-contain rounded h-[100%] w-[100%]"
                   />
                 </div>
               ))}
@@ -197,11 +200,14 @@ const About = () => {
 
             <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex items-center">
               {images.map((image, index) => (
-                <div class=" px-12" key={index}>
+                <div
+                  class="px-4 h-[150px] max-w-[70vw] bg-white min-w-[250px] m-4 rounded-xl"
+                  key={index}
+                >
                   <img
                     src={image}
                     alt=""
-                    className="p-4 w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
+                    className="p-4  mx-auto  object-contain rounded h-[100%] w-[100%]"
                   />
                 </div>
               ))}
@@ -226,11 +232,14 @@ const About = () => {
           <div class="relative flex overflow-x-hidden bg-cyan-400">
             <div class="py-12 animate-marquee whitespace-nowrap  flex items-center">
               {images2.map((image, index) => (
-                <div class="px-12" key={index}>
+                <div
+                  class="px-4 h-[150px] max-w-[70vw] bg-gray-200 min-w-[250px] m-4 rounded-xl"
+                  key={index}
+                >
                   <img
                     src={image}
                     alt=""
-                    className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
+                    className=" p-4   mx-auto  object-contain rounded h-[100%] w-[100%]"
                   />
                 </div>
               ))}
@@ -238,11 +247,14 @@ const About = () => {
 
             <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex items-center">
               {images2.map((image, index) => (
-                <div class=" px-12" key={index}>
+                <div
+                  class="px-4 h-[150px] max-w-[70vw] bg-gray-200 min-w-[250px] m-4 rounded-xl"
+                  key={index}
+                >
                   <img
                     src={image}
                     alt=""
-                    className="w-[90vw] md:w-auto md:h-28 mx-auto  object-cover rounded max-w-[70vw]"
+                    className="p-4  mx-auto  object-contain rounded h-[100%] w-[100%]"
                   />
                 </div>
               ))}

@@ -117,11 +117,12 @@ const Services = () => {
                     className="mb-6 leading-loose text-slate-400 wow animate__animated animate__fadeIn whitespace-pre-line"
                     data-wow-delay=".1s"
                   >
-                    {`Technology Assessment
-Market Entry Strategy
-Content Management
-Project Development & Finance
-ESG & Impact Reporting.`}
+                    {`Project Development
+ESG
+Market Research and Strategy Development
+Technology Assessment
+Startup Advisory
+Event and Content Management`}
                   </p>
 
                   <div className="mb-4">
@@ -138,8 +139,7 @@ ESG & Impact Reporting.`}
                     data-wow-delay=".1s"
                   >
                     {`BS, Renewable Energy Engineering, Zewail City of Science and Technology, 2016 – 2021
-Technology Assessment Professional Nano Degree Program, Udacity, 2021
-`}
+Digital Marketing Professional Nano Degree Program, Udacity, 2021`}
                   </p>
 
                   <div className="mb-4">
