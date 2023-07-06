@@ -5,33 +5,33 @@ import React from "react";
 const data = [
   {
     id: 1,
-    title: "Market Analysis",
+    title: "Product Launch Plans",
     image: "/assets/imgs/services/d1.png",
     points: [
-      "Conduct market research and analysis",
-      "Identify market trends and opportunities",
-      "Analyze customer needs and preferences",
+      "Target audience identification",
+      "Competitive analysis",
+      "Launch strategy development",
     ],
   },
   {
     id: 2,
-    title: "Benchmarking",
-    image: "/assets/imgs/services/d2.png",
+    title: "Market Readiness Assessment",
+    image: "/assets/imgs/services/d3.png",
 
     points: [
       "Conduct competitor analysis and benchmarking",
       "Identify competitor strengths and weaknesses",
-      "Develop strategies to differentiate from competitors",
+      "Assess regulatory landscape",
     ],
   },
   {
     id: 3,
-    title: "Strategic Planning",
-    image: "/assets/imgs/services/d3.png",
+    title: "Fund Raising Advisory",
+    image: "/assets/imgs/services/d2.png",
     points: [
-      "Develop customized strategic plans",
-      "Align goals with market and customer needs",
-      "Develop actionable implementation plans",
+      "Investors’ identification and targeting",
+      "Financial valuation and modeling",
+      "Pitch deck development and refinement",
     ],
   },
 ];

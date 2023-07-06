@@ -314,7 +314,7 @@ const About = () => {
                   </div>
                 </div>
               </Link>
-              <Link href="/team/ahmed-samir" legacyBehavior>
+              {/* <Link href="/team/ahmed-samir" legacyBehavior>
                 <div className="w-1/2 lg:w-1/3 px-5 mb-12">
                   <div
                     className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200"
@@ -331,7 +331,7 @@ const About = () => {
                     <p className="text-gray-500 text-xs mt-3">Partner</p>
                   </div>
                 </div>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>

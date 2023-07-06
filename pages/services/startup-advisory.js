@@ -5,33 +5,43 @@ import React from "react";
 const data = [
   {
     id: 1,
-    title: "Business Planning",
+    title: "Technology and Product Assessment",
     image: "/assets/imgs/services/h1.png",
     points: [
-      "Develop plans and projections",
-      "Conduct market analysis",
+      "Prototype testing and validation",
+      "Scalability and performance analysis",
       "Define goals and objectives",
     ],
   },
   {
     id: 2,
-    title: "Fundraising and Investment",
+    title: "Market Expansion Plans",
     image: "/assets/imgs/services/h2.png",
 
     points: [
-      "Develop fundraising strategies",
-      "Identify investors and partners",
-      "Prepare for due diligence",
+      "Identify growth opportunities",
+      "Create a road map for",
+      "expansion Tailored expansion strategies",
     ],
   },
   {
     id: 3,
-    title: "Operations and Growth",
+    title: "Partner Search",
     image: "/assets/imgs/services/h3.png",
     points: [
-      "Develop scalable models and processes",
-      "Optimize performance",
-      "Expand into new markets",
+      "Identify potential partners",
+      "Develop partnership strategies",
+      "Support integration of partners",
+    ],
+  },
+  {
+    id: 3,
+    title: "Team Building",
+    image: "/assets/imgs/services/h4.png",
+    points: [
+      "Define team roles and responsibilities",
+      "Develop effective team communication",
+      "Provide team training and development",
     ],
   },
 ];
