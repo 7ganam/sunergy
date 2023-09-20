@@ -8,6 +8,8 @@ const images = [
   "/assets/imgs/home/l3.png",
   "/assets/imgs/home/l4.png",
   "/assets/imgs/home/l5.png",
+  "/assets/imgs/home/l6.jpeg",
+  "/assets/imgs/home/l7.jpeg",
 ];
 
 const images2 = [
