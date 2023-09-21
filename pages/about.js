@@ -9,7 +9,6 @@ const images = [
   "/assets/imgs/home/l4.png",
   "/assets/imgs/home/l5.png",
   "/assets/imgs/home/l6.jpeg",
-  "/assets/imgs/home/l7.jpeg",
 ];
 
 const images2 = [
@@ -20,6 +19,7 @@ const images2 = [
   "/assets/imgs/about/w5.png",
   "/assets/imgs/about/w6.png",
   "/assets/imgs/about/w7.png",
+  "/assets/imgs/home/l7.jpeg",
 ];
 
 const About = () => {
