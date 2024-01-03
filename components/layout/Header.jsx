@@ -100,13 +100,36 @@ const Header = ({ handleHidden }) => {
                   </a>
                 </Link>
               </li>
-
               <li className="pt-4 pb-4">
                 <Link href="/contact" legacyBehavior>
                   <a className="text-sm font-semibold text-slate-600 hover:text-slate-500">
                     Contact Us
                   </a>
                 </Link>
+              </li>
+              <li className="group relative pt-4 pb-4 has-child">
+                <Link href="/activities" legacyBehavior>
+                  <a className="text-sm font-semibold text-slate-600 hover:text-slate-500">
+                    Activities
+                  </a>
+                </Link>
+                <ul className="drop-down-menu min-w-200">
+                  <li>
+                    <Link href="/activities#publications" legacyBehavior>
+                      <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
+                      Publications
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/activities#events" legacyBehavior>
+                      <a className="menu-sub-item text-sm text-slate-600 hover:text-slate-500">
+                      Events
+                      </a>
+                    </Link>
+                  </li>
+
+                </ul>
               </li>
             </ul>
             <div className="hidden lg:block">
