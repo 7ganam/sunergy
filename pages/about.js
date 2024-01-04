@@ -40,7 +40,7 @@ const About = () => {
               <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
               <div className="text-center z-30">
                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl -z-30">
-                  Inspiring Sustainable Change
+                   Driving the Clean Transition
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-white z-30">
                   Sunergy is a leading Clean Tech consulting and advisory firm

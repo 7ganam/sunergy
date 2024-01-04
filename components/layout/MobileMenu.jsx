@@ -20,6 +20,26 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
       });
     }
   };
+  
+  const [isActive2, setIsActive2] = useState({
+    status: false,
+    key: "",
+  });
+
+  const handleToggle2 = (key) => {
+    if (isActive2.key === key) {
+      setIsActive2({
+        status: false,
+      });
+    } else {
+      setIsActive2({
+        status: true,
+        key,
+      });
+    }
+  };
+
+
   return (
     <>
       <div
@@ -138,6 +158,37 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                     Contact Us
                   </a>
                 </Link>
+              </li>
+              <li
+                className={
+                  isActive2.key == 1
+                    ? "mb-1 menu-item-has-children rounded-xl active"
+                    : "mb-1 menu-item-has-children rounded-xl"
+                }
+                onClick={() => handleToggle2(1)}
+              >
+                <span className="menu-expand">+</span>
+                <Link href="#" legacyBehavior>
+                  <a className="block p-4 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">
+                    Activities
+                  </a>
+                </Link>
+                <ul className={isActive2.key == 1 ? "dropdown pl-5" : "hidden"}>
+                  <li>
+                    <Link href="/activities#publications" legacyBehavior>
+                      <a className="block p-3 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-500">
+                      Publications
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/activities#events" legacyBehavior>
+                      <a className="block p-3 text-sm text-slate-500 hover:bg-blue-50 hover:text-blue-500">
+                      Events
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
               </li>
             </ul>
             <div className="mt-4 pt-6 border-t border-slate-100">
